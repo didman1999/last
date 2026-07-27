@@ -1,0 +1,123 @@
+/* ============================================
+   STORE PREMIUM — RTL (Right-to-Left) Support
+   Arabic Language Overrides
+   ============================================ */
+
+body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* ─── Typography ─── */
+body[dir="rtl"] .section-title,
+body[dir="rtl"] .section-subtitle,
+body[dir="rtl"] .header-logo__text {
+  letter-spacing: normal; /* Arabic doesn't need letter spacing */
+}
+
+body[dir="rtl"] .btn,
+body[dir="rtl"] .badge,
+body[dir="rtl"] .tag,
+body[dir="rtl"] .product-card__brand,
+body[dir="rtl"] .collection-card__count,
+body[dir="rtl"] .announcement-bar__item,
+body[dir="rtl"] .header-nav__link,
+body[dir="rtl"] .footer-column__title {
+  letter-spacing: normal;
+}
+
+/* ─── Layout Overrides ─── */
+
+/* Header */
+body[dir="rtl"] .header-logo {
+  flex-direction: row;
+}
+
+body[dir="rtl"] .header-action-btn .cart-count {
+  right: auto;
+  left: 2px;
+}
+
+/* Divider */
+body[dir="rtl"] .divider-left {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* Product Card */
+body[dir="rtl"] .product-card__badge {
+  left: auto;
+  right: var(--space-3);
+}
+
+body[dir="rtl"] .product-card__price-old {
+  margin-left: 0;
+  margin-right: var(--space-2);
+}
+
+/* Review Card */
+body[dir="rtl"] .review-card__header {
+  flex-direction: row;
+}
+
+/* Accordion */
+body[dir="rtl"] .accordion-header {
+  text-align: right;
+}
+
+body[dir="rtl"] .accordion-header__icon {
+  margin-left: 0;
+}
+
+/* Footer */
+body[dir="rtl"] .footer-social {
+  flex-direction: row;
+}
+
+/* Cart Drawer */
+body[dir="rtl"] .cart-drawer__header {
+  flex-direction: row;
+}
+
+body[dir="rtl"] .cart-item__image {
+  margin-right: 0;
+  margin-left: var(--space-4);
+}
+
+/* Search Modal */
+body[dir="rtl"] .search-modal__input-wrapper {
+  flex-direction: row;
+}
+
+/* Animations Overrides */
+body[dir="rtl"] .reveal-left {
+  transform: translateX(40px);
+}
+
+body[dir="rtl"] .reveal-left.revealed {
+  transform: translateX(0);
+}
+
+body[dir="rtl"] .reveal-right {
+  transform: translateX(-40px);
+}
+
+body[dir="rtl"] .reveal-right.revealed {
+  transform: translateX(0);
+}
+
+/* Icons */
+body[dir="rtl"] .icon-arrow,
+body[dir="rtl"] .view-all-link svg {
+  transform: scaleX(-1); /* Flip arrows horizontally */
+}
+
+body[dir="rtl"] .view-all-link:hover svg {
+  transform: scaleX(-1) translateX(-4px);
+}
+
+/* Toast */
+body[dir="rtl"] .toast {
+  right: auto;
+  left: var(--space-6);
+}
