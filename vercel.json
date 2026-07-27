@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": ".",
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/collection", "dest": "/collection.html" },
+    { "src": "/product", "dest": "/product.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
