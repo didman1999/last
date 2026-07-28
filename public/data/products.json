@@ -59,11 +59,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 342,
@@ -132,11 +131,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/bag1.jpg"
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 215,
@@ -204,11 +202,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/bag1.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 189,
@@ -277,11 +274,10 @@
         "stock": 7
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
     "images": [
-      "/images/products/bag1.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 156,
@@ -351,11 +347,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800"
     ],
     "rating": 5,
     "reviewsCount": 412,
@@ -424,11 +419,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/bag2.jpg"
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 278,
@@ -498,11 +492,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/bag1.jpg",
+    "image": "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/bag2.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 320,
@@ -571,11 +564,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
     "images": [
-      "/images/products/bag2.jpg",
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg"
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 245,
@@ -644,11 +636,10 @@
         "stock": 6
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800"
     ],
     "rating": 4.5,
     "reviewsCount": 134,
@@ -717,11 +708,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 289,
@@ -790,11 +780,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/bag2.jpg",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/watch1.jpg"
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 198,
@@ -864,11 +853,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/watch1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 512,
@@ -937,11 +925,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
     "images": [
-      "/images/products/watch1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 210,
@@ -1011,11 +998,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 425,
@@ -1091,11 +1077,10 @@
         "stock": 8
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg",
-      "/images/products/bag1.jpg"
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 890,
@@ -1164,11 +1149,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/watch1.jpg",
+    "image": "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/bag1.jpg",
-      "/images/products/p5.jpg"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 350,
@@ -1237,11 +1221,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
     "images": [
-      "/images/products/bag1.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 215,
@@ -1310,11 +1293,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 180,
@@ -1383,11 +1365,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 467,
@@ -1457,11 +1438,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/bag1.jpg",
+    "image": "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 388,
@@ -1530,11 +1510,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 142,
@@ -1604,11 +1583,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 551,
@@ -1676,11 +1654,10 @@
         "stock": 10
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800"
     ],
     "rating": 4.5,
     "reviewsCount": 98,
@@ -1750,11 +1727,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg"
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 234,
@@ -1823,11 +1799,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 187,
@@ -1897,11 +1872,10 @@
         "stock": 9
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/bag1.jpg"
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
     ],
     "rating": 4.4,
     "reviewsCount": 167,
@@ -1970,11 +1944,10 @@
         "stock": 15
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/bag1.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 213,
@@ -2043,11 +2016,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
     "images": [
-      "/images/products/bag1.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 176,
@@ -2116,11 +2088,10 @@
         "stock": 1
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800"
     ],
     "rating": 5,
     "reviewsCount": 89,
@@ -2189,11 +2160,10 @@
         "stock": 6
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/bag2.jpg"
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 298,
@@ -2261,11 +2231,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/bag1.jpg",
+    "image": "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/bag2.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800"
     ],
     "rating": 4.5,
     "reviewsCount": 154,
@@ -2335,11 +2304,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
     "images": [
-      "/images/products/bag2.jpg",
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg"
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 122,
@@ -2408,11 +2376,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 312,
@@ -2482,11 +2449,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 145,
@@ -2554,11 +2520,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/bag2.jpg",
+    "image": "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/watch1.jpg"
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 167,
@@ -2627,11 +2592,10 @@
         "stock": 7
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/watch1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800"
     ],
     "rating": 4.5,
     "reviewsCount": 119,
@@ -2700,11 +2664,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
     "images": [
-      "/images/products/watch1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 88,
@@ -2774,11 +2737,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 143,
@@ -2848,11 +2810,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg",
-      "/images/products/bag1.jpg"
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 267,
@@ -2921,11 +2882,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/watch1.jpg",
+    "image": "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/bag1.jpg",
-      "/images/products/p5.jpg"
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 198,
@@ -2994,11 +2954,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
     "images": [
-      "/images/products/bag1.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 231,
@@ -3066,11 +3025,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800"
     ],
     "rating": 4.4,
     "reviewsCount": 86,
@@ -3132,11 +3090,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 112,
@@ -3205,11 +3162,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/bag1.jpg",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800"
     ],
     "rating": 4.5,
     "reviewsCount": 134,
@@ -3278,11 +3234,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 356,
@@ -3352,11 +3307,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800"
     ],
     "rating": 4.8,
     "reviewsCount": 423,
@@ -3426,11 +3380,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1523293115678-d29062e62260?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 312,
@@ -3500,11 +3453,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg"
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 176,
@@ -3574,11 +3526,10 @@
         "stock": 1
       }
     ],
-    "image": "/images/products/p1.jpg",
+    "image": "https://images.unsplash.com/photo-1583241475880-083f84372725?w=800",
     "images": [
-      "/images/products/p4.jpg",
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800"
     ],
     "rating": 5,
     "reviewsCount": 65,
@@ -3648,11 +3599,10 @@
         "stock": 5
       }
     ],
-    "image": "/images/products/p2.jpg",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
     "images": [
-      "/images/products/p5.jpg",
-      "/images/products/p6.jpg",
-      "/images/products/bag1.jpg"
+      "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800"
     ],
     "rating": 4.5,
     "reviewsCount": 209,
@@ -3721,11 +3671,10 @@
         "stock": 1
       }
     ],
-    "image": "/images/products/p3.jpg",
+    "image": "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?w=800",
     "images": [
-      "/images/products/p6.jpg",
-      "/images/products/bag1.jpg",
-      "/images/products/p1.jpg"
+      "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800"
     ],
     "rating": 5,
     "reviewsCount": 45,
@@ -3795,11 +3744,10 @@
         "stock": 3
       }
     ],
-    "image": "/images/products/p4.jpg",
+    "image": "https://images.unsplash.com/photo-1629198725890-e59ab73d8a7c?w=800",
     "images": [
-      "/images/products/bag1.jpg",
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg"
+      "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
     "rating": 4.7,
     "reviewsCount": 193,
@@ -3861,11 +3809,10 @@
         "stock": 2
       }
     ],
-    "image": "/images/products/p5.jpg",
+    "image": "https://images.unsplash.com/photo-1615486171448-2b6fd37e0b64?w=800",
     "images": [
-      "/images/products/p1.jpg",
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg"
+      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800"
     ],
     "rating": 4.9,
     "reviewsCount": 88,
@@ -3933,11 +3880,10 @@
         "stock": 7
       }
     ],
-    "image": "/images/products/p6.jpg",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
     "images": [
-      "/images/products/p2.jpg",
-      "/images/products/p3.jpg",
-      "/images/products/bag2.jpg"
+      "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
     "rating": 4.4,
     "reviewsCount": 147,
@@ -4006,11 +3952,10 @@
         "stock": 4
       }
     ],
-    "image": "/images/products/bag1.jpg",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?w=800",
     "images": [
-      "/images/products/p3.jpg",
-      "/images/products/bag2.jpg",
-      "/images/products/p4.jpg"
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1571781926291-07ddc5f8e49a?w=800"
     ],
     "rating": 4.6,
     "reviewsCount": 201,
