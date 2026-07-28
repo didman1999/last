@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="store_name">Store Premium | Luxury Fragrances</title>
+  <meta name="description" content="Discover our exclusive collection of luxury fragrances inspired by the world's finest scents.">
+  
+  <!-- Google Fonts for Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main CSS -->
+  <script type="module" crossorigin src="/assets/app-iA6_pz63.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/app-B53hnl9p.css">
+</head>
+<body class="theme-dark">
+  <!-- Luxurious Background Elements -->
+  <div class="bg-lights">
+    <div class="light-orb orb-1"></div>
+    <div class="light-orb orb-2"></div>
+    <div class="light-orb orb-3"></div>
+  </div>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <p data-i18n="announcement">✨ Free shipping on all orders over EGP 2000 ✨</p>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <button class="mobile-menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a href="index.html" class="logo">
+        <span data-i18n="store_name">STORE PREMIUM</span>
+      </a>
+
+      <nav class="header-nav">
+        <a href="index.html" class="header-nav__link active" data-i18n="nav_home">Home</a>
+        <a href="collection.html?gender=him" class="header-nav__link" data-i18n="nav_him">For Him</a>
+        <a href="collection.html?gender=her" class="header-nav__link" data-i18n="nav_her">For Her</a>
+        <a href="collection.html?gender=unisex" class="header-nav__link" data-i18n="nav_unisex">Unisex</a>
+        <a href="collection.html" class="header-nav__link" data-i18n="nav_all">All Perfumes</a>
+      </nav>
+
+      <div class="header-icons">
+        <div class="lang-switcher">
+          <button data-lang="en" class="lang-btn active">EN</button>
+          <span class="lang-sep">|</span>
+          <button data-lang="ar" class="lang-btn">AR</button>
+        </div>
+        
+        <button class="icon-btn" data-action="open-search" title="Search">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </button>
+        
+        <button class="icon-btn" data-action="open-login" title="Account">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+        </button>
+
+        <button class="icon-btn" onclick="window.location.href='collection.html?filter=wishlist'" title="Wishlist">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </button>
+
+        <button class="icon-btn cart-btn" data-action="open-cart" title="Cart">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span class="cart-badge" id="cartCountBadge" style="display:none">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu__inner">
+      <nav class="mobile-menu__nav">
+        <a href="index.html" class="mobile-menu__link active" data-i18n="nav_home">Home</a>
+        <a href="collection.html?gender=him" class="mobile-menu__link" data-i18n="nav_him">For Him</a>
+        <a href="collection.html?gender=her" class="mobile-menu__link" data-i18n="nav_her">For Her</a>
+        <a href="collection.html?gender=unisex" class="mobile-menu__link" data-i18n="nav_unisex">Unisex</a>
+        <a href="collection.html" class="mobile-menu__link" data-i18n="nav_all">All Perfumes</a>
+      </nav>
+      <div class="mobile-menu__footer">
+        <button class="btn btn-outline" style="width:100%" data-action="open-login" data-i18n="login">Login / Register</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero reveal">
+    <div class="hero__content">
+      <h2 class="hero__subtitle" data-i18n="hero_subtitle">The Art of Perfumery</h2>
+      <h1 class="hero__title" data-i18n="hero_title">Discover Your Signature Scent</h1>
+      <p class="hero__desc" data-i18n="hero_desc">Explore our exclusive collection of luxury fragrances inspired by the world's most iconic scents. Crafted with the finest ingredients for an unforgettable aura.</p>
+      <div class="hero__actions">
+        <button class="btn btn-primary btn-large" id="heroCta" data-i18n="shop_now">Shop Collection</button>
+        <button class="btn btn-outline btn-large" data-action="open-story" data-i18n="our_story">Our Story</button>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__image-wrapper">
+        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800" alt="Luxury Perfume" class="hero__image">
+        <div class="hero__glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Strip (Why Choose Us) -->
+  <section class="reveal" style="padding-top:60px;padding-bottom:60px;background: rgba(255,255,255,0.02);border-top: 1px solid var(--border-subtle);border-bottom: 1px solid var(--border-subtle);">
+    <div class="section-header" style="width:100%;text-align:center;margin-bottom:40px">
+      <h2 class="section-title" data-i18n="why_choose_us" style="margin:0 auto">Why Choose Us</h2>
+    </div>
+    <div class="features-strip" style="border:none;background:transparent;padding:0;">
+      <div class="feature-item">
+        <svg width="24" height="24" fill="none" stroke="var(--gold-primary)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/></svg>
+        <div>
+          <h4 data-i18n="feat_shipping_title">Free Shipping</h4>
+          <p data-i18n="feat_shipping_desc">On orders over EGP 2000</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg width="24" height="24" fill="none" stroke="var(--gold-primary)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+        <div>
+          <h4 data-i18n="feat_quality_title">Premium Quality</h4>
+          <p data-i18n="feat_quality_desc">Highest concentration extracts</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg width="24" height="24" fill="none" stroke="var(--gold-primary)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+        <div>
+          <h4 data-i18n="feat_return_title">Easy Returns</h4>
+          <p data-i18n="feat_return_desc">14 days return policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals -->
+  <section class="section reveal" id="new-arrivals">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="new_arrivals">New Arrivals</h2>
+      <a href="collection.html?sort=newest" class="section-link" data-i18n="view_all">View All</a>
+    </div>
+    <div class="product-grid" id="newArrivalsGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- Bestsellers -->
+  <section class="section reveal" id="bestsellers">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="bestsellers">Bestsellers</h2>
+      <a href="collection.html?sort=best" class="section-link" data-i18n="view_all">View All</a>
+    </div>
+    <div class="product-grid" id="bestsellersGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- Categories Split -->
+  <section class="categories-split reveal">
+    <div class="category-banner category-banner--him">
+      <img src="https://images.unsplash.com/photo-1617302482597-5a676b7e0129?auto=format&fit=crop&q=80&w=800" alt="For Him" class="category-banner__img">
+      <div class="category-banner__content">
+        <h3 class="category-banner__title" data-i18n="nav_him">For Him</h3>
+        <p class="category-banner__desc" data-i18n="cat_him_desc">Powerful, magnetic, and undeniably masculine fragrances.</p>
+        <button class="btn btn-primary" data-goto="him" data-i18n="shop_collection">Shop Collection</button>
+      </div>
+    </div>
+    <div class="category-banner category-banner--her">
+      <img src="https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?auto=format&fit=crop&q=80&w=800" alt="For Her" class="category-banner__img">
+      <div class="category-banner__content">
+        <h3 class="category-banner__title" data-i18n="nav_her">For Her</h3>
+        <p class="category-banner__desc" data-i18n="cat_her_desc">Elegant, floral, and captivating feminine scents.</p>
+        <button class="btn btn-primary" data-goto="her" data-i18n="shop_collection">Shop Collection</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Him Grid -->
+  <section class="section reveal" style="padding-top:20px;">
+    <div class="product-grid" id="himGrid"></div>
+  </section>
+
+  <!-- Promotional Banner -->
+  <section class="promo-banner reveal" style="position:relative;margin:40px 24px;border-radius:var(--radius-md);overflow:hidden">
+    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=1600" alt="Special Offer" style="width:100%;min-height:350px;object-fit:cover;display:block">
+    <div class="promo-content" style="position:absolute;inset:0;background:linear-gradient(to right, rgba(10,10,10,0.95), rgba(10,10,10,0.3));display:flex;align-items:center;padding:clamp(20px, 5vw, 40px)">
+      <div style="max-width:500px">
+        <h2 style="color:var(--gold-primary);font-size:clamp(1.8rem, 6vw, 2.5rem);margin-bottom:16px;font-family:var(--font-serif);line-height:1.2" data-i18n="promo_title">Exclusive Summer Collection</h2>
+        <p style="color:#ddd;font-size:clamp(0.95rem, 3vw, 1.1rem);margin-bottom:24px;line-height:1.6" data-i18n="promo_desc">Discover our newly curated selection of fresh, aquatic, and citrus fragrances perfect for the heat. Limited time offer.</p>
+        <button class="btn btn-primary" onclick="window.location.href='collection.html?filter=summer'" data-i18n="shop_now">Shop Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educational Section: Notes & Sizes -->
+  <section class="educational-section reveal" style="padding:60px 24px;background:var(--bg-secondary);margin-bottom:60px">
+    <div class="section-header" style="text-align:center;margin-bottom:40px">
+      <h2 class="section-title" data-i18n="fragrance_guide" style="margin:0 auto">The Fragrance Guide</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));gap:32px;max-width:1200px;margin:0 auto">
+      <div style="padding:24px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);text-align:center">
+        <div style="width:60px;height:60px;border-radius:50%;background:rgba(212,175,55,0.1);color:var(--gold-primary);display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
+          <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+        </div>
+        <h3 style="font-size:1.25rem;margin-bottom:12px;color:var(--text-primary)" data-i18n="top_notes">Top Notes</h3>
+        <p style="color:var(--text-muted);line-height:1.6;font-size:0.95rem" data-i18n="top_notes_desc">The initial, lighter smells of the fragrance that hit immediately upon application.</p>
+      </div>
+      <div style="padding:24px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);text-align:center">
+        <div style="width:60px;height:60px;border-radius:50%;background:rgba(212,175,55,0.1);color:var(--gold-primary);display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
+          <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </div>
+        <h3 style="font-size:1.25rem;margin-bottom:12px;color:var(--text-primary)" data-i18n="heart_notes">Heart Notes</h3>
+        <p style="color:var(--text-muted);line-height:1.6;font-size:0.95rem" data-i18n="heart_notes_desc">The core of the perfume, emerging once the top notes evaporate, lasting for hours.</p>
+      </div>
+      <div style="padding:24px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);text-align:center">
+        <div style="width:60px;height:60px;border-radius:50%;background:rgba(212,175,55,0.1);color:var(--gold-primary);display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
+          <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        </div>
+        <h3 style="font-size:1.25rem;margin-bottom:12px;color:var(--text-primary)" data-i18n="base_notes">Base Notes</h3>
+        <p style="color:var(--text-muted);line-height:1.6;font-size:0.95rem" data-i18n="base_notes_desc">The deep, solid foundation of the scent that lingers longest on the skin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Her Grid -->
+  <section class="section reveal" style="padding-top:0;">
+    <div class="product-grid" id="herGrid"></div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section reveal" style="padding:60px 24px;margin-bottom:60px">
+    <div class="section-header" style="text-align:center;margin-bottom:40px">
+      <h2 class="section-title" data-i18n="customer_reviews" style="margin:0 auto">What Our Clients Say</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:24px;max-width:1200px;margin:0 auto">
+      <div style="background:var(--bg-elevated);padding:32px;border-radius:var(--radius-md);border:1px solid var(--border-subtle)">
+        <div style="color:var(--gold-primary);margin-bottom:16px;font-size:1.2rem">★★★★★</div>
+        <p style="font-style:italic;color:var(--text-muted);line-height:1.7;margin-bottom:24px">"Absolutely stunning presentation and the longevity of these fragrances is incredible. Highly recommended for perfume enthusiasts."</p>
+        <div style="display:flex;align-items:center;gap:12px">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100" alt="Sarah J." style="width:48px;height:48px;border-radius:50%;object-fit:cover">
+          <div>
+            <div style="font-weight:600">Sarah J.</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)">Verified Buyer</div>
+          </div>
+        </div>
+      </div>
+      <div style="background:var(--bg-elevated);padding:32px;border-radius:var(--radius-md);border:1px solid var(--border-subtle)">
+        <div style="color:var(--gold-primary);margin-bottom:16px;font-size:1.2rem">★★★★★</div>
+        <p style="font-style:italic;color:var(--text-muted);line-height:1.7;margin-bottom:24px">"The 'For Him' collection has completely transformed my daily routine. I receive compliments everywhere I go!"</p>
+        <div style="display:flex;align-items:center;gap:12px">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" alt="Michael T." style="width:48px;height:48px;border-radius:50%;object-fit:cover">
+          <div>
+            <div style="font-weight:600">Michael T.</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)">Verified Buyer</div>
+          </div>
+        </div>
+      </div>
+      <div style="background:var(--bg-elevated);padding:32px;border-radius:var(--radius-md);border:1px solid var(--border-subtle)">
+        <div style="color:var(--gold-primary);margin-bottom:16px;font-size:1.2rem">★★★★★</div>
+        <p style="font-style:italic;color:var(--text-muted);line-height:1.7;margin-bottom:24px">"Exceptional customer service and fast shipping. The packaging alone makes it worth it. Will definitely order again."</p>
+        <div style="display:flex;align-items:center;gap:12px">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" alt="Emily R." style="width:48px;height:48px;border-radius:50%;object-fit:cover">
+          <div>
+            <div style="font-weight:600">Emily R.</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)">Verified Buyer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-section reveal">
+    <div class="newsletter-box">
+      <h2 data-i18n="newsletter_title">Join the Premium Club</h2>
+      <p data-i18n="newsletter_desc">Subscribe to receive exclusive offers, early access to new drops, and fragrance tips.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" data-i18n-placeholder="email_placeholder" required>
+        <button type="submit" class="btn btn-primary" data-i18n="subscribe">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo" style="margin-bottom:16px;display:inline-block">
+          <span data-i18n="store_name">STORE PREMIUM</span>
+        </a>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.6;margin-bottom:16px" data-i18n="footer_desc">
+          Elevating your presence with the world's most luxurious and captivating fragrances.
+        </p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg></a>
+          <a href="#" aria-label="Tiktok"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.04.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93v7.2c0 1.96-.5 3.96-1.6 5.56-1.1 1.6-2.6 2.8-4.4 3.4-1.8.6-3.7.6-5.5.1-1.8-.5-3.4-1.5-4.6-2.9-1.2-1.4-1.9-3.2-2.1-5.1-.2-1.9.1-3.8.9-5.5.8-1.7 2.1-3.1 3.7-4 1.6-.9 3.4-1.3 5.3-1.1v4.06c-1.07.13-2.11.53-2.93 1.18-.82.65-1.41 1.53-1.63 2.53-.22 1-.1 2.05.35 2.95.45.9 1.18 1.63 2.1 2.02.92.39 1.96.44 2.91.13.95-.31 1.79-.93 2.33-1.73.54-.8.85-1.77.87-2.77v-13.91h-3.83z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="shop">Shop</h4>
+        <ul class="footer-links">
+          <li><a href="collection.html?gender=him" data-i18n="nav_him">For Him</a></li>
+          <li><a href="collection.html?gender=her" data-i18n="nav_her">For Her</a></li>
+          <li><a href="collection.html?gender=unisex" data-i18n="nav_unisex">Unisex</a></li>
+          <li><a href="collection.html?sort=best" data-i18n="bestsellers">Bestsellers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="support">Support</h4>
+        <ul class="footer-links">
+          <li><a href="#" data-action="open-contact" data-i18n="contact_us">Contact Us</a></li>
+          <li><a href="#" data-i18n="shipping_policy">Shipping Policy</a></li>
+          <li><a href="#" data-i18n="return_policy">Return Policy</a></li>
+          <li><a href="#" data-i18n="faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="currentYear"></span> Store Premium. All rights reserved.</p>
+      <div class="payment-methods">
+        <span>Visa</span>
+        <span>Mastercard</span>
+        <span>Cash on Delivery</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==============================================
+       MODALS & OVERLAYS 
+       ============================================== -->
+
+  <!-- Cart Drawer -->
+  <div class="cart-overlay modal-overlay" id="cartOverlay"></div>
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer__header">
+      <h3 data-i18n="your_cart">Your Cart</h3>
+      <button class="icon-btn" id="cartCloseBtn">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="cart-drawer__shipping">
+      <div class="shipping-text" id="cartShippingText">Add <span>EGP 2000</span> for free shipping</div>
+      <div class="shipping-bar"><div class="shipping-fill" id="cartShippingFill"></div></div>
+    </div>
+    <div class="cart-drawer__items" id="cartItems"></div>
+    <div class="cart-drawer__empty" id="cartEmptyState">
+      <svg width="48" height="48" fill="none" stroke="var(--border-subtle)" viewBox="0 0 24 24" style="margin-bottom:16px"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+      <p data-i18n="cart_empty">Your cart is currently empty.</p>
+      <button class="btn btn-primary" onclick="app.closeCart();window.location.href='collection.html'" style="margin-top:16px" data-i18n="continue_shopping">Continue Shopping</button>
+    </div>
+    <div class="cart-drawer__footer" id="cartFooter">
+      <div class="cart-drawer__subtotal">
+        <span data-i18n="subtotal">Subtotal</span>
+        <span id="cartSubtotal" style="color:var(--gold-primary);font-weight:600">EGP 0</span>
+      </div>
+      <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-bottom:16px" data-i18n="tax_shipping_calc">Taxes and shipping calculated at checkout.</p>
+      <button class="btn btn-primary" style="width:100%" id="checkoutBtn" data-i18n="checkout">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-container">
+      <button class="icon-btn search-close" id="searchCloseBtn">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <h3 style="margin-bottom:24px;text-align:center" data-i18n="search">Search Perfumes</h3>
+      <div class="search-input-wrapper">
+        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--text-muted)"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by name, brand, or notes..." data-i18n-placeholder="search_placeholder">
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <!-- Auth Modal (Login/Register) -->
+  <div class="modal-overlay" id="authModal">
+    <div class="modal-content">
+      <button class="icon-btn modal-close" data-close-modal="authModal">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="loginTab" data-i18n="login">Login</button>
+        <button class="auth-tab" id="registerTab" data-i18n="register">Register</button>
+      </div>
+      
+      <form id="loginForm" class="auth-form">
+        <div class="form-group">
+          <label data-i18n="email">Email</label>
+          <input type="email" name="email" class="form-input" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="password">Password</label>
+          <input type="password" name="password" class="form-input" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="login">Login</button>
+      </form>
+
+      <form id="registerForm" class="auth-form hidden">
+        <div class="form-group">
+          <label data-i18n="name">Name</label>
+          <input type="text" name="name" class="form-input" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="email">Email</label>
+          <input type="email" name="email" class="form-input" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="password">Password</label>
+          <input type="password" name="password" class="form-input" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="register">Create Account</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-overlay" id="checkoutModal">
+    <div class="modal-content" style="max-width:800px">
+      <button class="icon-btn modal-close" data-close-modal="checkoutModal">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <h2 style="margin-bottom:24px" data-i18n="checkout">Checkout</h2>
+      
+      <div class="checkout-grid">
+        <form id="checkoutForm" class="checkout-form">
+          <h3 style="margin-bottom:16px;font-size:1.1rem" data-i18n="shipping_address">Shipping Address</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="first_name">First Name</label>
+              <input type="text" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label data-i18n="last_name">Last Name</label>
+              <input type="text" class="form-input" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-i18n="phone">Phone Number</label>
+            <input type="tel" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label data-i18n="address">Address</label>
+            <input type="text" class="form-input" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="city">City</label>
+              <input type="text" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label data-i18n="zip">Zip Code</label>
+              <input type="text" class="form-input">
+            </div>
+          </div>
+          <h3 style="margin:24px 0 16px;font-size:1.1rem" data-i18n="payment_method">Payment Method</h3>
+          <div class="payment-options">
+            <label class="payment-option">
+              <input type="radio" name="payment" value="cod" checked>
+              <span data-i18n="cash_on_delivery">Cash on Delivery</span>
+            </label>
+            <label class="payment-option" style="opacity:0.5">
+              <input type="radio" name="payment" value="card" disabled>
+              <span data-i18n="credit_card">Credit Card (Coming Soon)</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;margin-top:24px" data-i18n="place_order">Place Order</button>
+        </form>
+
+        <div class="checkout-summary">
+          <h3 style="margin-bottom:16px;font-size:1.1rem" data-i18n="order_summary">Order Summary</h3>
+          <div id="checkoutOrderSummary"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-content">
+      <button class="icon-btn modal-close" data-close-modal="contactModal">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <h2 style="margin-bottom:16px;text-align:center" data-i18n="contact_us">Contact Us</h2>
+      <p style="text-align:center;color:var(--text-muted);margin-bottom:24px" data-i18n="contact_desc">We're here to help. Send us a message.</p>
+      
+      <form id="contactForm" class="auth-form">
+        <div class="form-group">
+          <label data-i18n="name">Name</label>
+          <input type="text" name="name" class="form-input" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="email">Email</label>
+          <input type="email" name="email" class="form-input" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="message">Message</label>
+          <textarea name="message" class="form-input" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="send_message">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>

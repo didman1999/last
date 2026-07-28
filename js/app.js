@@ -9,7 +9,7 @@ class StoreApp {
     this.products = [];
     this.wishlist = JSON.parse(localStorage.getItem('sp_wishlist') || '[]');
     this.cart = JSON.parse(localStorage.getItem('sp_cart') || '[]');
-    this.currentLang = localStorage.getItem('sp_lang') || 'en';
+    this.currentLang = localStorage.getItem('sp_lang') || 'ar';
     this.currentPage = this.detectPage();
     this.filteredProducts = [];
     this.activeFilters = { gender: [], scent: [], price: [], category: null };
@@ -66,7 +66,7 @@ class StoreApp {
   ───────────────────────────────────────────── */
   async fetchProducts() {
     try {
-      const r = await fetch('/data/products.json');
+      const r = await fetch('/data/products.json?v=' + Date.now(), { cache: 'no-store' });
       this.products = await r.json();
       window.productsData = this.products;
       this.filteredProducts = [...this.products];
@@ -131,7 +131,7 @@ class StoreApp {
           this.renderHerSection();
         }
         if (this.currentPage === 'collection') this.renderCollectionGrid();
-        if (this.currentPage === 'product') this.renderProductPage();
+        if (this.currentPage === 'product') this.renderProductPage(this.products.find(p => p.id === this.currentProductId));
         this.renderCartDrawer();
       });
     });
@@ -571,7 +571,7 @@ class StoreApp {
       : '';
 
     return `
-      <div class="product-card reveal-scale ${extraClass}" data-id="${product.id}">
+      <div class="product-card ${extraClass}" data-id="${product.id}">
         <div class="product-card__image-wrapper">
           <div class="product-card__badges">${badges.join('')}</div>
           <img src="${product.image}" alt="${product.name[lang]}" class="product-card__image" loading="lazy"
@@ -612,12 +612,21 @@ class StoreApp {
     this.renderNewArrivals();
     this.renderHimSection();
     this.renderHerSection();
+    this.revealAll();
 
     document.addEventListener('langChanged', () => {
       this.renderBestsellers();
       this.renderNewArrivals();
       this.renderHimSection();
       this.renderHerSection();
+      this.revealAll();
+    });
+  }
+
+  revealAll() {
+    // Force all reveal elements visible immediately
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
+      el.classList.add('visible');
     });
   }
 
@@ -835,6 +844,14 @@ class StoreApp {
     if (product) {
       this.renderProductPage(product);
       this.renderRelatedProducts(product);
+      // Immediately make the product layout visible (don't wait for IntersectionObserver)
+      setTimeout(() => {
+        document.querySelectorAll('.product-layout, .product-layout .reveal, .product-layout .reveal-scale').forEach(el => {
+          el.classList.add('visible');
+        });
+        document.querySelector('.product-layout')?.classList.add('visible');
+        document.querySelectorAll('section.reveal').forEach(el => el.classList.add('visible'));
+      }, 50);
     }
 
     document.addEventListener('langChanged', () => {
@@ -845,6 +862,7 @@ class StoreApp {
       }
     });
   }
+
 
   renderProductPage(product) {
     if (!product) return;
@@ -1264,17 +1282,29 @@ class StoreApp {
      SCROLL ANIMATIONS
   ───────────────────────────────────────────── */
   setupAnimations() {
+    const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.05, rootMargin: '0px 0px -50px 0px' });
 
-    document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
-      observer.observe(el);
-    });
+    revealEls.forEach(el => observer.observe(el));
+
+    // Fallback: if elements are already in the viewport (e.g. product page top sections),
+    // force them visible after a short delay in case the observer missed them.
+    // Force all reveal elements visible after a delay
+    // This covers elements already in viewport that IntersectionObserver may miss
+    setTimeout(() => {
+      document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
+        el.classList.add('visible');
+      });
+    }, 100);
+    // Also run at 600ms to catch any late-rendered dynamic content
+    setTimeout(() => this.revealAll?.(), 600);
   }
 
   /* ─────────────────────────────────────────────

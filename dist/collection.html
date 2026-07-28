@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="store_name">Store Premium | Collection</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <script type="module" crossorigin src="/assets/app-iA6_pz63.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/app-B53hnl9p.css">
+</head>
+<body class="theme-dark">
+  <div class="bg-lights">
+    <div class="light-orb orb-1"></div>
+    <div class="light-orb orb-2"></div>
+    <div class="light-orb orb-3"></div>
+  </div>
+
+  <div class="announcement-bar">
+    <p data-i18n="announcement">✨ Free shipping on all orders over EGP 2000 ✨</p>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <button class="mobile-menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <a href="index.html" class="logo"><span data-i18n="store_name">STORE PREMIUM</span></a>
+      <nav class="header-nav">
+        <a href="index.html" class="header-nav__link" data-i18n="nav_home">Home</a>
+        <a href="collection.html?gender=him" class="header-nav__link" data-i18n="nav_him">For Him</a>
+        <a href="collection.html?gender=her" class="header-nav__link" data-i18n="nav_her">For Her</a>
+        <a href="collection.html?gender=unisex" class="header-nav__link" data-i18n="nav_unisex">Unisex</a>
+        <a href="collection.html" class="header-nav__link active" data-i18n="nav_all">All Perfumes</a>
+      </nav>
+      <div class="header-icons">
+        <div class="lang-switcher">
+          <button data-lang="en" class="lang-btn active">EN</button>
+          <span class="lang-sep">|</span>
+          <button data-lang="ar" class="lang-btn">AR</button>
+        </div>
+        <button class="icon-btn" data-action="open-search" title="Search"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg></button>
+        <button class="icon-btn" data-action="open-login" title="Account"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg></button>
+        <button class="icon-btn cart-btn" data-action="open-cart" title="Cart"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg><span class="cart-badge" id="cartCountBadge" style="display:none">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu__inner">
+      <nav class="mobile-menu__nav">
+        <a href="index.html" class="mobile-menu__link" data-i18n="nav_home">Home</a>
+        <a href="collection.html?gender=him" class="mobile-menu__link" data-i18n="nav_him">For Him</a>
+        <a href="collection.html?gender=her" class="mobile-menu__link" data-i18n="nav_her">For Her</a>
+        <a href="collection.html?gender=unisex" class="mobile-menu__link" data-i18n="nav_unisex">Unisex</a>
+        <a href="collection.html" class="mobile-menu__link active" data-i18n="nav_all">All Perfumes</a>
+      </nav>
+      <div class="mobile-menu__footer">
+        <button class="btn btn-outline" style="width:100%" data-action="open-login" data-i18n="login">Login / Register</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-header reveal">
+    <h1 class="page-title" id="collectionTitle">All Fragrances</h1>
+    <p class="page-desc" id="collectionDesc">Explore our complete collection of luxury fragrances inspired by the world's most iconic scents.</p>
+  </div>
+
+  <div class="collection-layout">
+    <!-- Filter Sidebar -->
+    <div class="filter-panel" id="filterPanel">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px" class="hide-desktop">
+        <h3 style="font-family:var(--font-serif);color:var(--gold-light)" data-i18n="filters">Filters</h3>
+        <button class="icon-btn" id="filterCloseBtn" onclick="document.getElementById('filterPanel').classList.remove('active');document.getElementById('filterOverlay').classList.remove('active');document.body.style.overflow=''"><svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+      </div>
+      
+      <div class="filter-group">
+        <h4 class="filter-group__title" data-i18n="filter_gender">Gender</h4>
+        <label class="filter-option"><input type="checkbox" data-filter-type="gender" data-filter-value="him"> <span data-i18n="nav_him">For Him</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="gender" data-filter-value="her"> <span data-i18n="nav_her">For Her</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="gender" data-filter-value="unisex"> <span data-i18n="nav_unisex">Unisex</span></label>
+      </div>
+
+      <div class="filter-group">
+        <h4 class="filter-group__title" data-i18n="filter_scent">Scent Profile</h4>
+        <label class="filter-option"><input type="checkbox" data-filter-type="scent" data-filter-value="oriental"> <span data-i18n="scent_oriental">Oriental / Woody</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="scent" data-filter-value="floral"> <span data-i18n="scent_floral">Floral / Sweet</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="scent" data-filter-value="fresh"> <span data-i18n="scent_fresh">Fresh / Citrus</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="scent" data-filter-value="fruity"> <span data-i18n="scent_fruity">Fruity</span></label>
+      </div>
+
+      <div class="filter-group">
+        <h4 class="filter-group__title" data-i18n="filter_price">Price</h4>
+        <label class="filter-option"><input type="checkbox" data-filter-type="price" data-filter-value="under-750"> <span data-i18n="price_under_750">Under 750 EGP</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="price" data-filter-value="750-1000"> <span data-i18n="price_750_1000">750 - 1000 EGP</span></label>
+        <label class="filter-option"><input type="checkbox" data-filter-type="price" data-filter-value="over-1000"> <span data-i18n="price_over_1000">Over 1000 EGP</span></label>
+      </div>
+
+      <div class="filter-group hide-desktop">
+        <button class="btn btn-primary" style="width:100%" id="applyFiltersBtn" data-i18n="apply_filters">Apply Filters</button>
+      </div>
+      <button class="btn btn-outline" style="width:100%" id="clearFiltersBtn" data-i18n="clear_filters">Clear Filters</button>
+    </div>
+    
+    <div class="filter-overlay modal-overlay" id="filterOverlay"></div>
+
+    <!-- Main Content -->
+    <div>
+      <div class="collection-controls">
+        <button class="btn btn-secondary hide-desktop" id="filterToggleBtn">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="margin-right:8px"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/></svg>
+          <span data-i18n="filters">Filters</span>
+          <span class="cart-badge" id="filterCount" style="display:none;position:static;transform:none;margin-left:8px">0</span>
+        </button>
+        <div style="font-size:0.9rem;color:var(--text-muted)" id="productsCount">...</div>
+        <div>
+          <select class="sort-select" id="sortSelect">
+            <option value="featured" data-i18n="sort_featured">Featured</option>
+            <option value="best" data-i18n="sort_best">Best Selling</option>
+            <option value="newest" data-i18n="sort_newest">Newest Arrivals</option>
+            <option value="low" data-i18n="sort_low">Price: Low to High</option>
+            <option value="high" data-i18n="sort_high">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" id="collectionGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo" style="margin-bottom:16px;display:inline-block">
+          <span data-i18n="store_name">STORE PREMIUM</span>
+        </a>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.6;margin-bottom:16px" data-i18n="footer_desc">Elevating your presence with the world's most luxurious and captivating fragrances.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="currentYear"></span> Store Premium. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <!-- Cart Drawer -->
+  <div class="cart-overlay modal-overlay" id="cartOverlay"></div>
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer__header">
+      <h3 data-i18n="your_cart">Your Cart</h3>
+      <button class="icon-btn" id="cartCloseBtn"><svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+    </div>
+    <div class="cart-drawer__shipping">
+      <div class="shipping-text" id="cartShippingText">Add <span>EGP 2000</span> for free shipping</div>
+      <div class="shipping-bar"><div class="shipping-fill" id="cartShippingFill"></div></div>
+    </div>
+    <div class="cart-drawer__items" id="cartItems"></div>
+    <div class="cart-drawer__empty" id="cartEmptyState">
+      <p data-i18n="cart_empty">Your cart is currently empty.</p>
+      <button class="btn btn-primary" onclick="app.closeCart()" style="margin-top:16px" data-i18n="continue_shopping">Continue Shopping</button>
+    </div>
+    <div class="cart-drawer__footer" id="cartFooter">
+      <div class="cart-drawer__subtotal"><span data-i18n="subtotal">Subtotal</span><span id="cartSubtotal" style="color:var(--gold-primary);font-weight:600">EGP 0</span></div>
+      <button class="btn btn-primary" style="width:100%" id="checkoutBtn" data-i18n="checkout">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>

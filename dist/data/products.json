@@ -1,0 +1,936 @@
+[
+  {
+    "id": "p-001", "slug": "euphoria",
+    "name": {"en": "Euphoria", "ar": "يوفوريا"},
+    "brand": {"en": "Inspired by Creed Aventus", "ar": "مستوحى من Creed Aventus"},
+    "gender": "him", "category": ["bestsellers", "him", "fresh"],
+    "price": 899, "oldPrice": 1200,
+    "description": {"en": "A sophisticated blend for individuals who savor a life well-lived. Blackcurrant, bergamot, and oakmoss — power, vision, and success.", "ar": "مزيج متطور للأشخاص الذين يقدرون الحياة الراقية. كشمش أسود وبرغموت وطحلب البلوط."},
+    "notes": {"top": {"en": "Pineapple, Bergamot, Blackcurrant", "ar": "أناناس، برغموت، كشمش أسود"}, "middle": {"en": "Birch, Patchouli, Moroccan Jasmine", "ar": "بتولا، باتشولي، ياسمين مغربي"}, "base": {"en": "Musk, Oakmoss, Ambergris", "ar": "مسك، طحلب البلوط، عنبر"}},
+    "variants": [
+      {"id": "v-001-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 15},
+      {"id": "v-001-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 8},
+      {"id": "v-001-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1619994121345-b61cd610c5a6?auto=format&fit=crop&q=80&w=600","https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 342, "stock": 8, "isNew": false, "isBestseller": true, "scent": "fresh"
+  },
+  {
+    "id": "p-002", "slug": "cloud9",
+    "name": {"en": "Cloud 9", "ar": "كلاود 9"},
+    "brand": {"en": "Inspired by Baccarat Rouge 540", "ar": "مستوحى من Baccarat Rouge 540"},
+    "gender": "unisex", "category": ["bestsellers", "unisex", "oriental"],
+    "price": 999, "oldPrice": null,
+    "description": {"en": "Luminous and sophisticated, this scent lays on the skin like an amber floral and woody breeze.", "ar": "مشرق وراقي، يستقر هذا العطر على البشرة كنسيم خشبي وزهري عنبري."},
+    "notes": {"top": {"en": "Saffron, Jasmine", "ar": "زعفران، ياسمين"}, "middle": {"en": "Amberwood, Ambergris", "ar": "خشب العنبر، عنبر"}, "base": {"en": "Fir Resin, Cedar", "ar": "راتنج التنوب، خشب الأرز"}},
+    "variants": [
+      {"id": "v-002-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 12},
+      {"id": "v-002-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 6},
+      {"id": "v-002-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 215, "stock": 6, "isNew": true, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-003", "slug": "dark-knight",
+    "name": {"en": "Dark Knight", "ar": "دارك نايت"},
+    "brand": {"en": "Inspired by Tom Ford Ombre Leather", "ar": "مستوحى من Tom Ford Ombre Leather"},
+    "gender": "him", "category": ["him", "oriental"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "Vast, untethered, and driven. A deeply textural scent that imprints you with a tactile sensuality.", "ar": "واسع، غير مقيد، ومندفع. رائحة نسيجية عميقة تطبعك بإحساس ملموس."},
+    "notes": {"top": {"en": "Cardamom", "ar": "هيل"}, "middle": {"en": "Leather, Jasmine Sambac", "ar": "جلد، ياسمين سامباك"}, "base": {"en": "Amber, Moss, Patchouli", "ar": "عنبر، طحلب، باتشولي"}},
+    "variants": [
+      {"id": "v-003-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 20},
+      {"id": "v-003-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 10},
+      {"id": "v-003-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683702?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1541643600914-78b084683702?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 189, "stock": 10, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-004", "slug": "ocean-breeze",
+    "name": {"en": "Ocean Breeze", "ar": "أوشن بريز"},
+    "brand": {"en": "Inspired by Acqua Di Gio", "ar": "مستوحى من Acqua Di Gio"},
+    "gender": "him", "category": ["him", "fresh", "new-arrivals"],
+    "price": 799, "oldPrice": 1100,
+    "description": {"en": "A mythic, fresh and aquatic fragrance that captures the sea's power and the lightness of a Mediterranean breeze.", "ar": "عطر أسطوري، منعش ومائي يجسد قوة البحر وخفة النسيم المتوسطي."},
+    "notes": {"top": {"en": "Marine Notes, Bergamot", "ar": "نفحات بحرية، برغموت"}, "middle": {"en": "Rosemary, Clary Sage", "ar": "إكليل الجبل، مريمية"}, "base": {"en": "Patchouli, Incense", "ar": "باتشولي، بخور"}},
+    "variants": [
+      {"id": "v-004-30", "size": "30ml", "concentration": "EDT", "price": 599, "stock": 25},
+      {"id": "v-004-50", "size": "50ml", "concentration": "EDT", "price": 799, "stock": 15},
+      {"id": "v-004-100", "size": "100ml", "concentration": "EDT", "price": 1099, "stock": 7}
+    ],
+    "image": "https://images.unsplash.com/photo-1587556930799-8dca6fad6d43?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1587556930799-8dca6fad6d43?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 156, "stock": 15, "isNew": true, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-005", "slug": "royal-oud",
+    "name": {"en": "Royal Oud", "ar": "رويال عود"},
+    "brand": {"en": "Inspired by LV Ombre Nomade", "ar": "مستوحى من LV Ombre Nomade"},
+    "gender": "him", "category": ["him", "oriental", "luxury", "bestsellers"],
+    "price": 999, "oldPrice": 1400,
+    "description": {"en": "A swirl of oud wood for a journey into the heart of the desert. Rich, smoky, and unforgettable.", "ar": "دوامة من خشب العود لرحلة إلى قلب الصحراء. غني، دخاني، لا يُنسى."},
+    "notes": {"top": {"en": "Raspberry, Rose", "ar": "توت العليق، ورد"}, "middle": {"en": "Oud, Incense", "ar": "عود، بخور"}, "base": {"en": "Benzoin, Amber", "ar": "جاوي، عنبر"}},
+    "variants": [
+      {"id": "v-005-30", "size": "30ml", "concentration": "Extrait", "price": 799, "stock": 5},
+      {"id": "v-005-50", "size": "50ml", "concentration": "Extrait", "price": 999, "stock": 3},
+      {"id": "v-005-100", "size": "100ml", "concentration": "Extrait", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1595425970377-c9703bc48b2d?auto=format&fit=crop&q=80&w=600"],
+    "rating": 5.0, "reviewsCount": 412, "stock": 3, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-006", "slug": "midnight",
+    "name": {"en": "Midnight", "ar": "ميدنايت"},
+    "brand": {"en": "Inspired by Bleu De Chanel", "ar": "مستوحى من Bleu De Chanel"},
+    "gender": "him", "category": ["him", "fresh", "new-arrivals"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "An aromatic-woody fragrance with a captivating trail. A tribute to masculine freedom and a powerful mystery.", "ar": "عطر خشبي عطري بأثر آسر. إشادة بالحرية الذكورية وغموض قوي."},
+    "notes": {"top": {"en": "Lemon, Mint, Pink Pepper", "ar": "ليمون، نعناع، فلفل وردي"}, "middle": {"en": "Ginger, Nutmeg, Jasmine", "ar": "زنجبيل، جوزة الطيب، ياسمين"}, "base": {"en": "Incense, Vetiver, Cedar", "ar": "بخور، نجيل الهند، خشب الأرز"}},
+    "variants": [
+      {"id": "v-006-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 18},
+      {"id": "v-006-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 9},
+      {"id": "v-006-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 278, "stock": 9, "isNew": true, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-007", "slug": "rose-gold",
+    "name": {"en": "Rose Gold", "ar": "روز جولد"},
+    "brand": {"en": "Inspired by Delina Parfums de Marly", "ar": "مستوحى من Delina Parfums de Marly"},
+    "gender": "her", "category": ["her", "floral", "bestsellers", "luxury"],
+    "price": 999, "oldPrice": null,
+    "description": {"en": "A highly nuanced fragrance which is both sweet and sensual. Floral, delicate, and irresistibly feminine.", "ar": "عطر شديد الدقة، حلو وجذاب في نفس الوقت. زهري، رقيق، وأنثوي بشكل لا يقاوم."},
+    "notes": {"top": {"en": "Lychee, Rhubarb, Bergamot", "ar": "ليتشي، راوند، برغموت"}, "middle": {"en": "Turkish Rose, Peony, Vanilla", "ar": "ورد تركي، فاوانيا، فانيليا"}, "base": {"en": "Cashmeran, Musk, Vetiver", "ar": "كاشميران، مسك، نجيل الهند"}},
+    "variants": [
+      {"id": "v-007-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 10},
+      {"id": "v-007-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 5},
+      {"id": "v-007-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 320, "stock": 5, "isNew": false, "isBestseller": true, "scent": "floral"
+  },
+  {
+    "id": "p-008", "slug": "velvet",
+    "name": {"en": "Velvet", "ar": "فيلفيت"},
+    "brand": {"en": "Inspired by YSL Libre", "ar": "مستوحى من YSL Libre"},
+    "gender": "her", "category": ["her", "oriental", "bestsellers"],
+    "price": 899, "oldPrice": 1200,
+    "description": {"en": "The fragrance of freedom, a statement perfume for those who live by their own rules.", "ar": "عطر الحرية، عطر مميز لمن يعيشون بقواعدهم الخاصة."},
+    "notes": {"top": {"en": "Lavender, Mandarin Orange", "ar": "لافندر، يوسفي"}, "middle": {"en": "Orange Blossom, Jasmine", "ar": "زهر البرتقال، ياسمين"}, "base": {"en": "Vanilla, Musk, Cedar", "ar": "فانيليا، مسك، خشب الأرز"}},
+    "variants": [
+      {"id": "v-008-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 14},
+      {"id": "v-008-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 7},
+      {"id": "v-008-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 245, "stock": 7, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-009", "slug": "blossom",
+    "name": {"en": "Blossom", "ar": "بلوسوم"},
+    "brand": {"en": "Inspired by Gucci Bloom", "ar": "مستوحى من Gucci Bloom"},
+    "gender": "her", "category": ["her", "floral", "new-arrivals"],
+    "price": 799, "oldPrice": null,
+    "description": {"en": "Capturing the spirit of the contemporary, diverse and authentic women. Pure floral beauty.", "ar": "يجسد روح المرأة المعاصرة والمتنوعة والأصيلة. جمال زهري نقي."},
+    "notes": {"top": {"en": "Rangoon Creeper, Tuberose", "ar": "رينجون كريبر، مسك الروم"}, "middle": {"en": "Tuberose, Jasmine, Rose", "ar": "مسك الروم، ياسمين، ورد"}, "base": {"en": "Jasmine Bud, Musk", "ar": "برعم الياسمين، مسك"}},
+    "variants": [
+      {"id": "v-009-30", "size": "30ml", "concentration": "EDP", "price": 599, "stock": 22},
+      {"id": "v-009-50", "size": "50ml", "concentration": "EDP", "price": 799, "stock": 12},
+      {"id": "v-009-100", "size": "100ml", "concentration": "EDP", "price": 1099, "stock": 6}
+    ],
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.5, "reviewsCount": 134, "stock": 12, "isNew": true, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-010", "slug": "moonlight",
+    "name": {"en": "Moonlight", "ar": "مونلايت"},
+    "brand": {"en": "Inspired by Black Opium YSL", "ar": "مستوحى من Black Opium YSL"},
+    "gender": "her", "category": ["her", "oriental", "bestsellers"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "A highly addictive feminine fragrance. Fascinating and seductively intoxicating coffee-vanilla blend.", "ar": "عطر أنثوي يسبب الإدمان بشدة. ساحر ومسكر بمزيج القهوة والفانيليا."},
+    "notes": {"top": {"en": "Pear, Pink Pepper, Orange Blossom", "ar": "كمثرى، فلفل وردي، زهر البرتقال"}, "middle": {"en": "Coffee, Jasmine, Bitter Almond", "ar": "قهوة، ياسمين، لوز مر"}, "base": {"en": "Vanilla, Patchouli, Cedar", "ar": "فانيليا، باتشولي، خشب الأرز"}},
+    "variants": [
+      {"id": "v-010-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 16},
+      {"id": "v-010-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 8},
+      {"id": "v-010-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 289, "stock": 8, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-011", "slug": "silk",
+    "name": {"en": "Silk", "ar": "سيلك"},
+    "brand": {"en": "Inspired by Dior J'adore", "ar": "مستوحى من Dior J'adore"},
+    "gender": "her", "category": ["her", "floral", "luxury"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "An iconic floral bouquet, magnificently balanced and elegantly crafted for the modern woman.", "ar": "باقة زهرية أيقونية، متوازنة بشكل رائع ومصنوعة بأناقة للمرأة العصرية."},
+    "notes": {"top": {"en": "Pear, Melon, Magnolia", "ar": "كمثرى، شمام، ماغنوليا"}, "middle": {"en": "Tuberose, Jasmine, Rose", "ar": "مسك الروم، ياسمين، ورد"}, "base": {"en": "Musk, Vanilla, Blackberry", "ar": "مسك، فانيليا، توت أسود"}},
+    "variants": [
+      {"id": "v-011-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 11},
+      {"id": "v-011-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 6},
+      {"id": "v-011-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1564201434139-03413a5f1ba0?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1564201434139-03413a5f1ba0?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 198, "stock": 6, "isNew": true, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-012", "slug": "aurora",
+    "name": {"en": "Aurora", "ar": "أورورا"},
+    "brand": {"en": "Inspired by Chanel No 5", "ar": "مستوحى من Chanel No 5"},
+    "gender": "her", "category": ["her", "floral", "luxury", "bestsellers"],
+    "price": 999, "oldPrice": 1300,
+    "description": {"en": "The very essence of femininity. A powdery floral bouquet that defined modern perfumery.", "ar": "جوهر الأنوثة الحقيقي. باقة زهرية بودرية عرّفت عطور العصر الحديث."},
+    "notes": {"top": {"en": "Aldehydes, Ylang-Ylang, Neroli", "ar": "ألدهيدات، يلانغ يلانغ، زهر البرتقال"}, "middle": {"en": "Jasmine, Rose, Lily of the Valley", "ar": "ياسمين، ورد، زنبق الوادي"}, "base": {"en": "Sandalwood, Vanilla, Vetiver", "ar": "خشب الصندل، فانيليا، نجيل الهند"}},
+    "variants": [
+      {"id": "v-012-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 7},
+      {"id": "v-012-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 4},
+      {"id": "v-012-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 512, "stock": 4, "isNew": false, "isBestseller": true, "scent": "floral"
+  },
+  {
+    "id": "p-013", "slug": "golden-vanilla",
+    "name": {"en": "Golden Vanilla", "ar": "جولدن فانيليا"},
+    "brand": {"en": "Inspired by Tom Ford Tobacco Vanille", "ar": "مستوحى من Tom Ford Tobacco Vanille"},
+    "gender": "him", "category": ["him", "oriental", "luxury"],
+    "price": 999, "oldPrice": null,
+    "description": {"en": "Opulent, warm and iconic. A modern take on an old-world men's club. Tobacco and vanilla unite perfectly.", "ar": "فاخر، دافئ وأيقوني. لمسة عصرية لنادي الرجال القديم. التبغ والفانيليا يتحدان بكمال."},
+    "notes": {"top": {"en": "Tobacco Leaf, Spicy Notes", "ar": "ورق التبغ، نفحات حارة"}, "middle": {"en": "Vanilla, Cacao, Tonka Bean", "ar": "فانيليا، كاكاو، تونكا"}, "base": {"en": "Dried Fruits, Woody Notes", "ar": "فواكه مجففة، نفحات خشبية"}},
+    "variants": [
+      {"id": "v-013-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 9},
+      {"id": "v-013-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 5},
+      {"id": "v-013-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 210, "stock": 5, "isNew": true, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-014", "slug": "mystic-wood",
+    "name": {"en": "Mystic Wood", "ar": "ميستيك وود"},
+    "brand": {"en": "Inspired by Tom Ford Oud Wood", "ar": "مستوحى من Tom Ford Oud Wood"},
+    "gender": "him", "category": ["him", "oriental", "luxury", "bestsellers"],
+    "price": 999, "oldPrice": 1250,
+    "description": {"en": "Rare, exotic, and distinctive. Oud and sandalwood weave together in a powerfully seductive composition.", "ar": "نادر، غريب، ومميز. يتشابك العود وخشب الصندل في تركيبة جاذبة بقوة."},
+    "notes": {"top": {"en": "Rosewood, Cardamom", "ar": "خشب الورد، هيل"}, "middle": {"en": "Oud Wood, Sandalwood, Vetiver", "ar": "خشب العود، خشب الصندل، نجيل الهند"}, "base": {"en": "Tonka Bean, Amber", "ar": "تونكا، عنبر"}},
+    "variants": [
+      {"id": "v-014-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 6},
+      {"id": "v-014-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 4},
+      {"id": "v-014-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1609529945056-87da6ede2e2a?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1609529945056-87da6ede2e2a?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 425, "stock": 4, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-015", "slug": "savage",
+    "name": {"en": "Savage", "ar": "سافاج"},
+    "brand": {"en": "Inspired by Dior Sauvage", "ar": "مستوحى من Dior Sauvage"},
+    "gender": "him", "category": ["him", "fresh", "bestsellers"],
+    "price": 899, "oldPrice": 1100,
+    "description": {"en": "A radically fresh composition, dictated by a name that has the ring of a manifesto — raw, bold, free.", "ar": "تركيبة منعشة جذرياً، تمليها اسم يرن كبيان — خام، جريء، حر."},
+    "notes": {"top": {"en": "Calabrian Bergamot, Pepper", "ar": "برغموت كالابريا، فلفل"}, "middle": {"en": "Sichuan Pepper, Lavender, Vetiver", "ar": "فلفل سيتشوان، لافندر، نجيل الهند"}, "base": {"en": "Ambroxan, Cedar", "ar": "أمبروكسان، خشب الأرز"}},
+    "variants": [
+      {"id": "v-015-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 20},
+      {"id": "v-015-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 10},
+      {"id": "v-015-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 5},
+      {"id": "v-015-50edt", "size": "50ml", "concentration": "EDT", "price": 749, "stock": 8}
+    ],
+    "image": "https://images.unsplash.com/photo-1579664031089-5ae28e570c9b?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1579664031089-5ae28e570c9b?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 890, "stock": 10, "isNew": false, "isBestseller": true, "scent": "fresh"
+  },
+  {
+    "id": "p-016", "slug": "secret-garden",
+    "name": {"en": "Secret Garden", "ar": "سيكريت جاردن"},
+    "brand": {"en": "Inspired by CH Good Girl", "ar": "مستوحى من CH Good Girl"},
+    "gender": "her", "category": ["her", "oriental", "new-arrivals"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "A daring yet sophisticated fragrance inspired by the duality of the modern woman — good and bold.", "ar": "عطر جريء وراقي مستوحى من ازدواجية المرأة العصرية — طيبة وجريئة."},
+    "notes": {"top": {"en": "Almond, Coffee, Bergamot", "ar": "لوز، قهوة، برغموت"}, "middle": {"en": "Tuberose, Jasmine Sambac", "ar": "مسك الروم، ياسمين سامباك"}, "base": {"en": "Tonka Bean, Cacao, Vanilla", "ar": "تونكا، كاكاو، فانيليا"}},
+    "variants": [
+      {"id": "v-016-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 13},
+      {"id": "v-016-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 7},
+      {"id": "v-016-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1548516173-3cab553e59ef?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1548516173-3cab553e59ef?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 350, "stock": 7, "isNew": true, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-017", "slug": "crystal",
+    "name": {"en": "Crystal", "ar": "كريستال"},
+    "brand": {"en": "Inspired by Versace Bright Crystal", "ar": "مستوحى من Versace Bright Crystal"},
+    "gender": "her", "category": ["her", "floral", "fresh"],
+    "price": 799, "oldPrice": 1050,
+    "description": {"en": "A precious jewel of rare beauty characterized by a fresh, vibrant, flowery scent. Light as air.", "ar": "جوهرة ثمينة ذات جمال نادر تتميز برائحة منعشة، نابضة بالحياة، وزهرية."},
+    "notes": {"top": {"en": "Yuzu, Pomegranate, Ice", "ar": "يوزو، رمان، ثلج"}, "middle": {"en": "Peony, Lotus, Magnolia", "ar": "فاوانيا، لوتس، ماغنوليا"}, "base": {"en": "Musk, Mahogany, Amber", "ar": "مسك، ماهوجني، عنبر"}},
+    "variants": [
+      {"id": "v-017-30", "size": "30ml", "concentration": "EDT", "price": 599, "stock": 18},
+      {"id": "v-017-50", "size": "50ml", "concentration": "EDT", "price": 799, "stock": 10},
+      {"id": "v-017-100", "size": "100ml", "concentration": "EDT", "price": 1099, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 215, "stock": 10, "isNew": false, "isBestseller": true, "scent": "floral"
+  },
+  {
+    "id": "p-018", "slug": "scandalous",
+    "name": {"en": "Scandalous", "ar": "سكاندالوس"},
+    "brand": {"en": "Inspired by JPG Scandal", "ar": "مستوحى من JPG Scandal"},
+    "gender": "her", "category": ["her", "oriental", "new-arrivals"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "A perfume that breaks all clichés — new, modern, powerful and elegant. Honeyed florals with a dark twist.", "ar": "عطر يكسر كل الكليشيهات — جديد، عصري، قوي وأنيق. أزهار معسّلة بلمسة داكنة."},
+    "notes": {"top": {"en": "Blood Orange, Mandarin Orange", "ar": "برتقال دموي، يوسفي"}, "middle": {"en": "Honey, Gardenia, Orange Blossom", "ar": "عسل، غاردينيا، زهر البرتقال"}, "base": {"en": "Beeswax, Caramel, Patchouli", "ar": "شمع العسل، كراميل، باتشولي"}},
+    "variants": [
+      {"id": "v-018-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 15},
+      {"id": "v-018-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 8},
+      {"id": "v-018-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 180, "stock": 8, "isNew": true, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-019", "slug": "amber-night",
+    "name": {"en": "Amber Night", "ar": "أمبر نايت"},
+    "brand": {"en": "Inspired by Paco Rabanne 1 Million", "ar": "مستوحى من Paco Rabanne 1 Million"},
+    "gender": "him", "category": ["him", "oriental", "bestsellers"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "A dazzling, irresistible men's fragrance. Spicy, leather and warm wood — a magnetic gold formula.", "ar": "عطر رجالي باهر لا يقاوم. حار، جلدي وخشب دافئ — فورمولة ذهبية مغناطيسية."},
+    "notes": {"top": {"en": "Blood Mandarin, Spicy Notes, Mint", "ar": "يوسفي دموي، نفحات حارة، نعناع"}, "middle": {"en": "Cinnamon, Rose, Blond Leather", "ar": "قرفة، ورد، جلد فاتح"}, "base": {"en": "Blond Wood, Patchouli, Amber", "ar": "خشب فاتح، باتشولي، عنبر"}},
+    "variants": [
+      {"id": "v-019-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 17},
+      {"id": "v-019-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 9},
+      {"id": "v-019-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1599714081012-5c0c6a0b8e58?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1599714081012-5c0c6a0b8e58?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 467, "stock": 9, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-020", "slug": "paradise",
+    "name": {"en": "Paradise", "ar": "باراداييس"},
+    "brand": {"en": "Inspired by Lancôme La Vie Est Belle", "ar": "مستوحى من Lancôme La Vie Est Belle"},
+    "gender": "her", "category": ["her", "fruity", "bestsellers", "new-arrivals"],
+    "price": 899, "oldPrice": 1100,
+    "description": {"en": "A declaration of freedom and happiness. Sweet iris, praline and patchouli make life beautiful.", "ar": "إعلان حرية وسعادة. سوسن حلو، برالين وباتشولي تجعل الحياة جميلة."},
+    "notes": {"top": {"en": "Black Currant, Pear", "ar": "كشمش أسود، كمثرى"}, "middle": {"en": "Iris, Orange Blossom, Jasmine", "ar": "سوسن، زهر البرتقال، ياسمين"}, "base": {"en": "Praline, Vanilla, Patchouli", "ar": "برالين، فانيليا، باتشولي"}},
+    "variants": [
+      {"id": "v-020-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 13},
+      {"id": "v-020-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 7},
+      {"id": "v-020-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 388, "stock": 7, "isNew": true, "isBestseller": true, "scent": "fruity"
+  },
+  {
+    "id": "p-021", "slug": "wood-sage",
+    "name": {"en": "Wood & Sage", "ar": "وود وسيج"},
+    "brand": {"en": "Inspired by Jo Malone Wood Sage & Sea Salt", "ar": "مستوحى من Jo Malone Wood Sage"},
+    "gender": "unisex", "category": ["unisex", "fresh", "new-arrivals"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "An airy, mineral fragrance that evokes windswept cliffs and salt spray. Unisex and effortlessly chic.", "ar": "عطر هوائي ومعدني يستحضر المنحدرات ورذاذ الملح. يونيسكس وأنيق بلا جهد."},
+    "notes": {"top": {"en": "Ambrette Seed, Sea Salt", "ar": "بذور أمبريت، ملح البحر"}, "middle": {"en": "Sage, Driftwood", "ar": "مريمية، خشب الانجراف"}, "base": {"en": "Ambergris, Musk", "ar": "عنبر أشهب، مسك"}},
+    "variants": [
+      {"id": "v-021-30", "size": "30ml", "concentration": "EDC", "price": 649, "stock": 20},
+      {"id": "v-021-50", "size": "50ml", "concentration": "EDC", "price": 849, "stock": 10},
+      {"id": "v-021-100", "size": "100ml", "concentration": "EDC", "price": 1199, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1636920786736-e5ff5a88bd9e?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1636920786736-e5ff5a88bd9e?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 142, "stock": 10, "isNew": true, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-022", "slug": "black-orchid",
+    "name": {"en": "Black Orchid", "ar": "بلاك أوركيد"},
+    "brand": {"en": "Inspired by Tom Ford Black Orchid", "ar": "مستوحى من Tom Ford Black Orchid"},
+    "gender": "unisex", "category": ["unisex", "oriental", "luxury", "bestsellers"],
+    "price": 1099, "oldPrice": 1500,
+    "description": {"en": "An opulent and sensual fragrance of great complexity. Dark floral with truffle and black orchid.", "ar": "عطر فاخر وحسي ذو تعقيد كبير. أزهار داكنة مع الكمأ والأوركيد الأسود."},
+    "notes": {"top": {"en": "Black Truffle, Ylang-Ylang", "ar": "كمأ أسود، يلانغ يلانغ"}, "middle": {"en": "Black Orchid, Jasmine, Gardenia", "ar": "أوركيد أسود، ياسمين، غاردينيا"}, "base": {"en": "Dark Chocolate, Patchouli, Vanilla", "ar": "شوكولاتة داكنة، باتشولي، فانيليا"}},
+    "variants": [
+      {"id": "v-022-30", "size": "30ml", "concentration": "EDP", "price": 899, "stock": 5},
+      {"id": "v-022-50", "size": "50ml", "concentration": "EDP", "price": 1099, "stock": 3},
+      {"id": "v-022-100", "size": "100ml", "concentration": "EDP", "price": 1699, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1611080541599-8c6dbde14a41?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1611080541599-8c6dbde14a41?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 551, "stock": 3, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-023", "slug": "fresh-citrus",
+    "name": {"en": "Fresh Citrus", "ar": "فريش سيتروس"},
+    "brand": {"en": "Inspired by Acqua Di Parma Colonia", "ar": "مستوحى من Acqua Di Parma Colonia"},
+    "gender": "him", "category": ["him", "fresh"],
+    "price": 749, "oldPrice": null,
+    "description": {"en": "A classic Italian eau de cologne with a vibrant, clean, and timeless elegance. Citrus and aromatic herbs.", "ar": "كولونيا إيطالية كلاسيكية بأناقة نابضة، نظيفة وخالدة. حمضيات وأعشاب عطرية."},
+    "notes": {"top": {"en": "Lemon, Orange, Bergamot", "ar": "ليمون، برتقال، برغموت"}, "middle": {"en": "Rose, Rosemary, Lavender", "ar": "ورد، إكليل الجبل، لافندر"}, "base": {"en": "Sandalwood, Vetiver, Musk", "ar": "خشب الصندل، نجيل الهند، مسك"}},
+    "variants": [
+      {"id": "v-023-50", "size": "50ml", "concentration": "EDC", "price": 749, "stock": 25},
+      {"id": "v-023-100", "size": "100ml", "concentration": "EDC", "price": 999, "stock": 12},
+      {"id": "v-023-50edp", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 10}
+    ],
+    "image": "https://images.unsplash.com/photo-1637181735827-e3b53f4bf397?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1637181735827-e3b53f4bf397?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.5, "reviewsCount": 98, "stock": 25, "isNew": false, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-024", "slug": "pink-cherry",
+    "name": {"en": "Pink Cherry", "ar": "بينك تشيري"},
+    "brand": {"en": "Inspired by Viktor & Rolf Flowerbomb", "ar": "مستوحى من Viktor & Rolf Flowerbomb"},
+    "gender": "her", "category": ["her", "floral", "fruity", "new-arrivals"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "An explosive floral bouquet that blooms endlessly. Sweet, feminine, and utterly captivating.", "ar": "باقة زهرية انفجارية لا تتوقف عن التفتح. حلوة، أنثوية، وجذابة تماماً."},
+    "notes": {"top": {"en": "Bergamot, Peach, Pink Pepper", "ar": "برغموت، خوخ، فلفل وردي"}, "middle": {"en": "Rose, Violet, Gardenia, Jasmine", "ar": "ورد، بنفسج، غاردينيا، ياسمين"}, "base": {"en": "Musk, Patchouli, Vanilla", "ar": "مسك، باتشولي، فانيليا"}},
+    "variants": [
+      {"id": "v-024-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 16},
+      {"id": "v-024-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 8},
+      {"id": "v-024-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1571116861671-6e2c9789c01c?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1571116861671-6e2c9789c01c?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 234, "stock": 8, "isNew": true, "isBestseller": false, "scent": "fruity"
+  },
+  {
+    "id": "p-025", "slug": "cedar-smoke",
+    "name": {"en": "Cedar Smoke", "ar": "سيدار سموك"},
+    "brand": {"en": "Inspired by Byredo Bal d'Afrique", "ar": "مستوحى من Byredo Bal d'Afrique"},
+    "gender": "unisex", "category": ["unisex", "oriental", "luxury"],
+    "price": 999, "oldPrice": null,
+    "description": {"en": "An exotic, warm and smoky fragrance inspired by the African continent. Cedar and vetiver with spice.", "ar": "عطر غريب، دافئ ومدخن مستوحى من القارة الأفريقية. أرز ونجيل الهند مع التوابل."},
+    "notes": {"top": {"en": "Bergamot, Lemon, African Marigold", "ar": "برغموت، ليمون، أقحوان أفريقي"}, "middle": {"en": "Jasmine, Rose, Violet", "ar": "ياسمين، ورد، بنفسج"}, "base": {"en": "Musk, Vetiver, Amber", "ar": "مسك، نجيل الهند، عنبر"}},
+    "variants": [
+      {"id": "v-025-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 8},
+      {"id": "v-025-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 5},
+      {"id": "v-025-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 187, "stock": 5, "isNew": false, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-026", "slug": "cherry-blossom",
+    "name": {"en": "Cherry Blossom", "ar": "تشيري بلوسوم"},
+    "brand": {"en": "Inspired by Marc Jacobs Daisy", "ar": "مستوحى من Marc Jacobs Daisy"},
+    "gender": "her", "category": ["her", "floral", "fruity", "special-offers"],
+    "price": 699, "oldPrice": 999,
+    "description": {"en": "A delightful, playful floral fragrance with a sunny disposition. Light and carefree like spring itself.", "ar": "عطر زهري مبهج وألعوبي بمزاج مشمس. خفيف ومرح كالربيع نفسه."},
+    "notes": {"top": {"en": "Strawberry, Violet Leaves, Grapefruit", "ar": "فراولة، أوراق بنفسج، جريب فروت"}, "middle": {"en": "Daisy, Gardenia, Jasmine", "ar": "زهرة البابونج، غاردينيا، ياسمين"}, "base": {"en": "Vanilla, White Musk, Sandalwood", "ar": "فانيليا، مسك أبيض، خشب الصندل"}},
+    "variants": [
+      {"id": "v-026-30", "size": "30ml", "concentration": "EDT", "price": 499, "stock": 30},
+      {"id": "v-026-50", "size": "50ml", "concentration": "EDT", "price": 699, "stock": 18},
+      {"id": "v-026-100", "size": "100ml", "concentration": "EDT", "price": 999, "stock": 9}
+    ],
+    "image": "https://images.unsplash.com/photo-1543270032-00dd14c79b39?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1543270032-00dd14c79b39?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.4, "reviewsCount": 167, "stock": 18, "isNew": false, "isBestseller": false, "scent": "fruity"
+  },
+  {
+    "id": "p-027", "slug": "iron-wood",
+    "name": {"en": "Iron Wood", "ar": "آيرون وود"},
+    "brand": {"en": "Inspired by Terre d'Hermès", "ar": "مستوحى من Terre d'Hermès"},
+    "gender": "him", "category": ["him", "fresh", "special-offers"],
+    "price": 799, "oldPrice": 1099,
+    "description": {"en": "A woody, mineral, and vegetal fragrance. An ode to nature and man. Earthy and refined.", "ar": "عطر خشبي، معدني ونباتي. قصيدة للطبيعة والإنسان. ترابي ومُهذَّب."},
+    "notes": {"top": {"en": "Grapefruit, Orange", "ar": "جريب فروت، برتقال"}, "middle": {"en": "Pepper, Petitgrain, Geranium", "ar": "فلفل، بيتيت جرين، إبرة الراعي"}, "base": {"en": "Vetiver, Cedar, Flint", "ar": "نجيل الهند، خشب الأرز، صوان"}},
+    "variants": [
+      {"id": "v-027-50", "size": "50ml", "concentration": "EDP", "price": 799, "stock": 12},
+      {"id": "v-027-100", "size": "100ml", "concentration": "EDP", "price": 1099, "stock": 6},
+      {"id": "v-027-50edt", "size": "50ml", "concentration": "EDT", "price": 649, "stock": 15}
+    ],
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 213, "stock": 12, "isNew": false, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-028", "slug": "midnight-rose",
+    "name": {"en": "Midnight Rose", "ar": "ميدنايت روز"},
+    "brand": {"en": "Inspired by Lancôme Trésor Midnight Rose", "ar": "مستوحى من Lancôme Trésor Midnight Rose"},
+    "gender": "her", "category": ["her", "floral", "oriental"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "A modern romantic fragrance. Fresh fruits and rose at night, warm amber and musk in the morning.", "ar": "عطر رومانسي عصري. فواكه منعشة وورد في الليل، عنبر دافئ ومسك في الصباح."},
+    "notes": {"top": {"en": "Raspberry, Bergamot", "ar": "توت العليق، برغموت"}, "middle": {"en": "Rose, Jasmine, Lily", "ar": "ورد، ياسمين، زنبق"}, "base": {"en": "Sandalwood, Musk, Amber", "ar": "خشب الصندل، مسك، عنبر"}},
+    "variants": [
+      {"id": "v-028-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 14},
+      {"id": "v-028-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 8},
+      {"id": "v-028-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 176, "stock": 8, "isNew": true, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-029", "slug": "oud-sultan",
+    "name": {"en": "Oud Sultan", "ar": "عود السلطان"},
+    "brand": {"en": "Inspired by Amouage Interlude", "ar": "مستوحى من Amouage Interlude"},
+    "gender": "him", "category": ["him", "oriental", "luxury"],
+    "price": 1199, "oldPrice": 1600,
+    "description": {"en": "A majestic and rich oriental fragrance. A powerful smoky oud with incense and frankincense.", "ar": "عطر شرقي مهيب وغني. عود مدخن قوي مع البخور واللبان."},
+    "notes": {"top": {"en": "Frankincense, Oregano, Rosemary", "ar": "لبان، أوريجانو، إكليل الجبل"}, "middle": {"en": "Oud, Sandalwood, Leather", "ar": "عود، خشب الصندل، جلد"}, "base": {"en": "Amber, Labdanum, Benzoin", "ar": "عنبر، ليبدانوم، جاوي"}},
+    "variants": [
+      {"id": "v-029-30", "size": "30ml", "concentration": "Extrait", "price": 999, "stock": 4},
+      {"id": "v-029-50", "size": "50ml", "concentration": "Extrait", "price": 1199, "stock": 3},
+      {"id": "v-029-100", "size": "100ml", "concentration": "Extrait", "price": 1799, "stock": 1}
+    ],
+    "image": "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&q=80&w=600"],
+    "rating": 5.0, "reviewsCount": 89, "stock": 3, "isNew": false, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-030", "slug": "white-jasmine",
+    "name": {"en": "White Jasmine", "ar": "وايت جاسمين"},
+    "brand": {"en": "Inspired by Chloé EDP", "ar": "مستوحى من Chloé EDP"},
+    "gender": "her", "category": ["her", "floral", "special-offers"],
+    "price": 749, "oldPrice": 999,
+    "description": {"en": "Romantic, feminine and modern. A luxurious floral fragrance that radiates a fresh and sensual allure.", "ar": "رومانسي، أنثوي وعصري. عطر زهري فاخر يشع بجاذبية منعشة وحسية."},
+    "notes": {"top": {"en": "Peony, Lychee", "ar": "فاوانيا، ليتشي"}, "middle": {"en": "White Jasmine, Rose, Magnolia", "ar": "ياسمين أبيض، ورد، ماغنوليا"}, "base": {"en": "Cedarwood, Virginia Cedar, Amber", "ar": "أرز، أرز فيرجينيا، عنبر"}},
+    "variants": [
+      {"id": "v-030-30", "size": "30ml", "concentration": "EDP", "price": 549, "stock": 20},
+      {"id": "v-030-50", "size": "50ml", "concentration": "EDP", "price": 749, "stock": 12},
+      {"id": "v-030-75", "size": "75ml", "concentration": "EDP", "price": 999, "stock": 6}
+    ],
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 298, "stock": 12, "isNew": false, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-031", "slug": "sport-blue",
+    "name": {"en": "Sport Blue", "ar": "سبورت بلو"},
+    "brand": {"en": "Inspired by Dolce & Gabbana Light Blue", "ar": "مستوحى من Dolce & Gabbana Light Blue"},
+    "gender": "him", "category": ["him", "fresh"],
+    "price": 799, "oldPrice": null,
+    "description": {"en": "Fresh, clean, and Mediterranean. A timeless fragrance that evokes the Sicilian coast.", "ar": "منعش، نظيف ومتوسطي. عطر خالد يستحضر الساحل الصقلي."},
+    "notes": {"top": {"en": "Sicilian Lemon, Cedar, Green Apple", "ar": "ليمون صقلي، أرز، تفاح أخضر"}, "middle": {"en": "Bamboo, Jasmine, White Rose", "ar": "خيزران، ياسمين، ورد أبيض"}, "base": {"en": "Cedarwood, Musk, Amber", "ar": "خشب الأرز، مسك، عنبر"}},
+    "variants": [
+      {"id": "v-031-40", "size": "40ml", "concentration": "EDT", "price": 599, "stock": 22},
+      {"id": "v-031-75", "size": "75ml", "concentration": "EDT", "price": 799, "stock": 11},
+      {"id": "v-031-125", "size": "125ml", "concentration": "EDT", "price": 1099, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.5, "reviewsCount": 154, "stock": 11, "isNew": false, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-032", "slug": "desert-rose",
+    "name": {"en": "Desert Rose", "ar": "ديزرت روز"},
+    "brand": {"en": "Inspired by Montale Roses Musk", "ar": "مستوحى من Montale Roses Musk"},
+    "gender": "her", "category": ["her", "oriental", "floral", "luxury"],
+    "price": 999, "oldPrice": null,
+    "description": {"en": "A deeply rose-centric fragrance wrapped in a warm veil of musk and woody notes. Hypnotic.", "ar": "عطر محوره الورد بعمق ملفوف في حجاب دافئ من المسك والنفحات الخشبية. منوّم."},
+    "notes": {"top": {"en": "Turkish Rose, Rose Absolute", "ar": "ورد تركي، روز أبسوليوت"}, "middle": {"en": "Musk, Iris, Geranium", "ar": "مسك، سوسن، إبرة الراعي"}, "base": {"en": "Sandalwood, Oud, Amber", "ar": "خشب الصندل، عود، عنبر"}},
+    "variants": [
+      {"id": "v-032-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 8},
+      {"id": "v-032-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 5},
+      {"id": "v-032-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1587854680352-936b22b91030?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1587854680352-936b22b91030?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 122, "stock": 5, "isNew": true, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-033", "slug": "gentleman",
+    "name": {"en": "Gentleman", "ar": "جنتلمان"},
+    "brand": {"en": "Inspired by Givenchy Gentleman", "ar": "مستوحى من Givenchy Gentleman"},
+    "gender": "him", "category": ["him", "oriental", "bestsellers"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "Powerful and elegant. An iris and bourbon vanilla signature scent for the modern gentleman.", "ar": "قوي وأنيق. توقيع سوسن وفانيليا بوربون للرجل العصري."},
+    "notes": {"top": {"en": "Cardamom, Bergamot, Pepper", "ar": "هيل، برغموت، فلفل"}, "middle": {"en": "Iris, Vetiver, Geranium", "ar": "سوسن، نجيل الهند، إبرة الراعي"}, "base": {"en": "Bourbon Vanilla, Cedar, Sandalwood", "ar": "فانيليا بوربون، أرز، خشب الصندل"}},
+    "variants": [
+      {"id": "v-033-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 15},
+      {"id": "v-033-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 8},
+      {"id": "v-033-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1590156206657-f1b1da5f0df4?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1590156206657-f1b1da5f0df4?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 312, "stock": 8, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-034", "slug": "peach-paradise",
+    "name": {"en": "Peach Paradise", "ar": "بيتش باراداييس"},
+    "brand": {"en": "Inspired by Guerlain Mon Guerlain", "ar": "مستوحى من Guerlain Mon Guerlain"},
+    "gender": "her", "category": ["her", "fruity", "floral", "new-arrivals"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "A modern and feminine fragrance inspired by Provence. Sparkling lavender and vanilla with a peachy freshness.", "ar": "عطر عصري وأنثوي مستوحى من بروفانس. لافندر ألق وفانيليا بانتعاش الخوخ."},
+    "notes": {"top": {"en": "Bergamot, Lavender", "ar": "برغموت، لافندر"}, "middle": {"en": "Peach, Vanilla, White Flowers", "ar": "خوخ، فانيليا، أزهار بيضاء"}, "base": {"en": "White Musk, Cedarwood, Sandalwood", "ar": "مسك أبيض، خشب الأرز، خشب الصندل"}},
+    "variants": [
+      {"id": "v-034-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 18},
+      {"id": "v-034-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 9},
+      {"id": "v-034-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1512207411994-32b7b9c9b097?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1512207411994-32b7b9c9b097?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 145, "stock": 9, "isNew": true, "isBestseller": false, "scent": "fruity"
+  },
+  {
+    "id": "p-035", "slug": "spice-market",
+    "name": {"en": "Spice Market", "ar": "سبايس ماركت"},
+    "brand": {"en": "Inspired by Yves Rocher Black Elixir", "ar": "مستوحى من Yves Rocher Black Elixir"},
+    "gender": "him", "category": ["him", "oriental"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "A captivating oriental spice market fragrance. Warm, complex, and unforgettable.", "ar": "عطر آسر بسوق التوابل الشرقي. دافئ، معقد، لا يُنسى."},
+    "notes": {"top": {"en": "Cardamom, Saffron, Pepper", "ar": "هيل، زعفران، فلفل"}, "middle": {"en": "Rose, Oud, Incense", "ar": "ورد، عود، بخور"}, "base": {"en": "Labdanum, Sandalwood, Benzoin", "ar": "ليبدانوم، خشب الصندل، جاوي"}},
+    "variants": [
+      {"id": "v-035-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 11},
+      {"id": "v-035-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 6},
+      {"id": "v-035-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1506631538720-4f6e40d02d71?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1506631538720-4f6e40d02d71?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 167, "stock": 6, "isNew": false, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-036", "slug": "lotus-dream",
+    "name": {"en": "Lotus Dream", "ar": "لوتس دريم"},
+    "brand": {"en": "Inspired by Issey Miyake L'Eau d'Issey", "ar": "مستوحى من Issey Miyake L'Eau d'Issey"},
+    "gender": "her", "category": ["her", "fresh", "floral"],
+    "price": 749, "oldPrice": null,
+    "description": {"en": "A pure, aquatic fragrance inspired by the transparency of water. Clean, serene, and beautiful.", "ar": "عطر نقي ومائي مستوحى من شفافية الماء. نظيف، هادئ وجميل."},
+    "notes": {"top": {"en": "Melon, Aquatic Notes, Cyclamen", "ar": "شمام، نفحات مائية، سيكلامن"}, "middle": {"en": "Water Lily, Rose, Freesia", "ar": "زنبق الماء، ورد، فريزيا"}, "base": {"en": "Musk, Sandalwood, Cedar", "ar": "مسك، خشب الصندل، أرز"}},
+    "variants": [
+      {"id": "v-036-30", "size": "30ml", "concentration": "EDT", "price": 549, "stock": 24},
+      {"id": "v-036-50", "size": "50ml", "concentration": "EDT", "price": 749, "stock": 14},
+      {"id": "v-036-100", "size": "100ml", "concentration": "EDT", "price": 1049, "stock": 7}
+    ],
+    "image": "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1473188588951-666fce8e7c68?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.5, "reviewsCount": 119, "stock": 14, "isNew": false, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-037", "slug": "ice-storm",
+    "name": {"en": "Ice Storm", "ar": "آيس ستورم"},
+    "brand": {"en": "Inspired by Hermès Eau des Merveilles Bleue", "ar": "مستوحى من Hermès Eau des Merveilles Bleue"},
+    "gender": "him", "category": ["him", "fresh", "new-arrivals"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "A bold, fresh, and energizing fragrance. Icy notes, refreshing woods, and vibrant citrus.", "ar": "عطر جريء، منعش ومنشط. نفحات جليدية، أخشاب منعشة وحمضيات نابضة."},
+    "notes": {"top": {"en": "Bergamot, Lime, Aldehyde", "ar": "برغموت، ليمون حامض، ألدهيد"}, "middle": {"en": "Ginger, Marine Accord", "ar": "زنجبيل، أكورد بحري"}, "base": {"en": "White Musk, Driftwood", "ar": "مسك أبيض، خشب الانجراف"}},
+    "variants": [
+      {"id": "v-037-40", "size": "40ml", "concentration": "EDT", "price": 649, "stock": 19},
+      {"id": "v-037-75", "size": "75ml", "concentration": "EDT", "price": 849, "stock": 10},
+      {"id": "v-037-150", "size": "150ml", "concentration": "EDT", "price": 1299, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1520301255226-bf5f144451c1?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1520301255226-bf5f144451c1?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 88, "stock": 10, "isNew": true, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-038", "slug": "rose-santal",
+    "name": {"en": "Rose & Santal", "ar": "روز وسانتال"},
+    "brand": {"en": "Inspired by Diptyque Tam Dao", "ar": "مستوحى من Diptyque Tam Dao"},
+    "gender": "unisex", "category": ["unisex", "oriental", "floral", "luxury"],
+    "price": 999, "oldPrice": null,
+    "description": {"en": "Sandalwood takes centre stage, richly enveloped by rose and spices. Serene and meditative.", "ar": "خشب الصندل يأخذ دور البطولة، ملفوف ثراءً بالورد والتوابل. هادئ وتأملي."},
+    "notes": {"top": {"en": "Rosewood, Pepper, Myrtle", "ar": "خشب الورد، فلفل، آس"}, "middle": {"en": "Sandalwood, Cedar, Rose", "ar": "خشب الصندل، أرز، ورد"}, "base": {"en": "Musk, Vetiver", "ar": "مسك، نجيل الهند"}},
+    "variants": [
+      {"id": "v-038-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 9},
+      {"id": "v-038-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 5},
+      {"id": "v-038-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1571109652551-e4ac39fcf25e?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1571109652551-e4ac39fcf25e?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 143, "stock": 5, "isNew": false, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-039", "slug": "velvet-iris",
+    "name": {"en": "Velvet Iris", "ar": "فيلفيت آيريس"},
+    "brand": {"en": "Inspired by Prada La Femme", "ar": "مستوحى من Prada La Femme"},
+    "gender": "her", "category": ["her", "floral", "luxury", "bestsellers"],
+    "price": 949, "oldPrice": 1300,
+    "description": {"en": "Powerfully and distinctly feminine. Frangipani and iris create an enveloping floral signature.", "ar": "قوي وأنثوي بشكل مميز. الفرنجيباني والسوسن يخلقان توقيعاً زهرياً غامراً."},
+    "notes": {"top": {"en": "Frangipani, Ylang-Ylang, Neroli", "ar": "فرنجيباني، يلانغ يلانغ، زهر البرتقال"}, "middle": {"en": "Iris, Tuberose, White Rose", "ar": "سوسن، مسك الروم، ورد أبيض"}, "base": {"en": "Sandalwood, Musk, Vanilla", "ar": "خشب الصندل، مسك، فانيليا"}},
+    "variants": [
+      {"id": "v-039-30", "size": "30ml", "concentration": "EDP", "price": 749, "stock": 10},
+      {"id": "v-039-50", "size": "50ml", "concentration": "EDP", "price": 949, "stock": 6},
+      {"id": "v-039-80", "size": "80ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 267, "stock": 6, "isNew": false, "isBestseller": true, "scent": "floral"
+  },
+  {
+    "id": "p-040", "slug": "amber-rose",
+    "name": {"en": "Amber Rose", "ar": "أمبر روز"},
+    "brand": {"en": "Inspired by Valentino Donna Born in Roma", "ar": "مستوحى من Valentino Donna Born in Roma"},
+    "gender": "her", "category": ["her", "fruity", "floral"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "A vibrant, contrasted fragrance. Roman jasmine meets floral elixir and blackberry sorbet.", "ar": "عطر نابض ومتباين. ياسمين روماني يلتقي بإكسير زهري وسوربيه التوت الأسود."},
+    "notes": {"top": {"en": "Bergamot, Blackberry, Violet Leaves", "ar": "برغموت، توت أسود، أوراق بنفسج"}, "middle": {"en": "Roman Jasmine, Floral Elixir", "ar": "ياسمين روماني، إكسير زهري"}, "base": {"en": "Vanilla Bourbon, Musk, Benzyl Salicylate", "ar": "فانيليا بوربون، مسك، بنزيل ساليسيلات"}},
+    "variants": [
+      {"id": "v-040-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 12},
+      {"id": "v-040-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 7},
+      {"id": "v-040-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1567416661576-659b1c36d03e?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1567416661576-659b1c36d03e?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 198, "stock": 7, "isNew": true, "isBestseller": false, "scent": "fruity"
+  },
+  {
+    "id": "p-041", "slug": "bourbon-vanilla",
+    "name": {"en": "Bourbon Vanilla", "ar": "بوربون فانيليا"},
+    "brand": {"en": "Inspired by Maison Margiela Replica By The Fireplace", "ar": "مستوحى من Maison Margiela Replica By The Fireplace"},
+    "gender": "unisex", "category": ["unisex", "oriental", "special-offers"],
+    "price": 799, "oldPrice": 1099,
+    "description": {"en": "Warm chestnut fire and the smell of a winter evening. Cozy and unforgettable.", "ar": "نار الكستناء الدافئة ورائحة أمسية شتوية. مريح ولا يُنسى."},
+    "notes": {"top": {"en": "Chestnut, Pink Pepper", "ar": "كستناء، فلفل وردي"}, "middle": {"en": "Gaiac Wood, Cashmeran", "ar": "خشب غياك، كاشميران"}, "base": {"en": "Vanilla, Guaiac Wood, Amber", "ar": "فانيليا، خشب الغياك، عنبر"}},
+    "variants": [
+      {"id": "v-041-30", "size": "30ml", "concentration": "EDP", "price": 599, "stock": 15},
+      {"id": "v-041-50", "size": "50ml", "concentration": "EDP", "price": 799, "stock": 9},
+      {"id": "v-041-100", "size": "100ml", "concentration": "EDP", "price": 1099, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 231, "stock": 9, "isNew": false, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-042", "slug": "lemon-verbena",
+    "name": {"en": "Lemon Verbena", "ar": "ليمون فيربينا"},
+    "brand": {"en": "Inspired by L'Occitane Verbena", "ar": "مستوحى من L'Occitane Verbena"},
+    "gender": "unisex", "category": ["unisex", "fresh"],
+    "price": 649, "oldPrice": null,
+    "description": {"en": "Intensely fresh and clean. A cheerful, tart, and revitalizing lemon verbena fragrance.", "ar": "منعش ونظيف بشكل مكثف. عطر الليمون والفيربينا المبهج، الحامض والمنشط."},
+    "notes": {"top": {"en": "Lemon, Verbena, Green Notes", "ar": "ليمون، فيربينا، نفحات خضراء"}, "middle": {"en": "Mint, Clary Sage", "ar": "نعناع، مريمية"}, "base": {"en": "Musk, Cedar, Green Tea", "ar": "مسك، أرز، شاي أخضر"}},
+    "variants": [
+      {"id": "v-042-50", "size": "50ml", "concentration": "EDT", "price": 649, "stock": 28},
+      {"id": "v-042-100", "size": "100ml", "concentration": "EDT", "price": 849, "stock": 15},
+      {"id": "v-042-250", "size": "250ml", "concentration": "EDT", "price": 1499, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1609171962700-5e6882cf26d5?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1609171962700-5e6882cf26d5?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.4, "reviewsCount": 86, "stock": 28, "isNew": false, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-043", "slug": "ember-wood",
+    "name": {"en": "Ember Wood", "ar": "إمبر وود"},
+    "brand": {"en": "Inspired by Azzaro Wanted By Night", "ar": "مستوحى من Azzaro Wanted By Night"},
+    "gender": "him", "category": ["him", "oriental", "new-arrivals"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "A daring, fiery fragrance for the night. Intense, seductive, and powerfully masculine.", "ar": "عطر جريء وناري للليل. مكثف، مغري، وذكوري بقوة."},
+    "notes": {"top": {"en": "Elemi, Lemon, Pink Pepper", "ar": "إيليمي، ليمون، فلفل وردي"}, "middle": {"en": "Clary Sage, Cardamom, Cinnamon", "ar": "مريمية، هيل، قرفة"}, "base": {"en": "Tonka Bean, Amber, Olibanum", "ar": "تونكا، عنبر، لبان ذكر"}},
+    "variants": [
+      {"id": "v-043-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 10},
+      {"id": "v-043-100", "size": "100ml", "concentration": "EDP", "price": 1149, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 112, "stock": 10, "isNew": true, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-044", "slug": "spring-meadow",
+    "name": {"en": "Spring Meadow", "ar": "سبرينج ميدو"},
+    "brand": {"en": "Inspired by Dolce & Gabbana Flora Gorgeous Jasmine", "ar": "مستوحى من Dolce & Gabbana Flora Gorgeous Jasmine"},
+    "gender": "her", "category": ["her", "floral", "fruity"],
+    "price": 799, "oldPrice": null,
+    "description": {"en": "A blossoming, optimistic floral scent celebrating femininity and beauty. Joyful and radiant.", "ar": "عطر زهري متفتح ومتفائل يحتفل بالأنوثة والجمال. مبهج ومشع."},
+    "notes": {"top": {"en": "Green Apple, Bergamot, Pink Pepper", "ar": "تفاح أخضر، برغموت، فلفل وردي"}, "middle": {"en": "Jasmine, Peony, Daffodil", "ar": "ياسمين، فاوانيا، نرجس"}, "base": {"en": "Musk, Sandalwood, Vetiver", "ar": "مسك، خشب الصندل، نجيل الهند"}},
+    "variants": [
+      {"id": "v-044-30", "size": "30ml", "concentration": "EDP", "price": 599, "stock": 16},
+      {"id": "v-044-50", "size": "50ml", "concentration": "EDP", "price": 799, "stock": 9},
+      {"id": "v-044-100", "size": "100ml", "concentration": "EDP", "price": 1099, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.5, "reviewsCount": 134, "stock": 9, "isNew": false, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-045", "slug": "black-tie",
+    "name": {"en": "Black Tie", "ar": "بلاك تاي"},
+    "brand": {"en": "Inspired by Yves Saint Laurent Y EDP", "ar": "مستوحى من Yves Saint Laurent Y EDP"},
+    "gender": "him", "category": ["him", "fresh", "bestsellers"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "A dazzling, contemporary fragrance that embodies the perfect balance of boldness and elegance.", "ar": "عطر معاصر باهر يجسد التوازن المثالي بين الجرأة والأناقة."},
+    "notes": {"top": {"en": "Bergamot, Ginger, Apple", "ar": "برغموت، زنجبيل، تفاح"}, "middle": {"en": "Juniper Berry, Geranium, Sage", "ar": "توت عرعر، إبرة الراعي، مريمية"}, "base": {"en": "Amberwood, Cedarwood, Vetiver", "ar": "خشب عنبر، خشب الأرز، نجيل الهند"}},
+    "variants": [
+      {"id": "v-045-30", "size": "30ml", "concentration": "EDP", "price": 699, "stock": 13},
+      {"id": "v-045-60", "size": "60ml", "concentration": "EDP", "price": 899, "stock": 7},
+      {"id": "v-045-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 356, "stock": 7, "isNew": false, "isBestseller": true, "scent": "fresh"
+  },
+  {
+    "id": "p-046", "slug": "vanilla-sky",
+    "name": {"en": "Vanilla Sky", "ar": "فانيليا سكاي"},
+    "brand": {"en": "Inspired by Mugler Angel", "ar": "مستوحى من Mugler Angel"},
+    "gender": "her", "category": ["her", "oriental", "fruity", "bestsellers"],
+    "price": 849, "oldPrice": 1099,
+    "description": {"en": "A celestial oriental gourmand. Intoxicating chocolate, vanilla and patchouli.", "ar": "شرقي لذيذ سماوي. شوكولاتة، فانيليا وباتشولي مسكرة."},
+    "notes": {"top": {"en": "Cassis, Melon, Coconut", "ar": "كاسيس، شمام، جوز الهند"}, "middle": {"en": "Honey, Jasmine, Rose de Mai", "ar": "عسل، ياسمين، ورد ماي"}, "base": {"en": "Dark Chocolate, Patchouli, Musk", "ar": "شوكولاتة داكنة، باتشولي، مسك"}},
+    "variants": [
+      {"id": "v-046-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 14},
+      {"id": "v-046-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 8},
+      {"id": "v-046-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.8, "reviewsCount": 423, "stock": 8, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-047", "slug": "noir-extreme",
+    "name": {"en": "Noir Extreme", "ar": "نوار إكستريم"},
+    "brand": {"en": "Inspired by Tom Ford Noir Extreme", "ar": "مستوحى من Tom Ford Noir Extreme"},
+    "gender": "him", "category": ["him", "oriental", "luxury", "special-offers"],
+    "price": 999, "oldPrice": 1399,
+    "description": {"en": "A full, sensuous, dark oriental fragrance. Rich, complex, and powerfully magnetic.", "ar": "عطر شرقي داكن كامل وحسي. غني، معقد، ومغناطيسي بقوة."},
+    "notes": {"top": {"en": "Neroli, Karo Karounde, Mandarin", "ar": "زهر البرتقال، كارو كاروندي، يوسفي"}, "middle": {"en": "Rose, Orris Root, Jasmine", "ar": "ورد، جذر سوسن، ياسمين"}, "base": {"en": "Oud, Amber, Vanilla, Musk", "ar": "عود، عنبر، فانيليا، مسك"}},
+    "variants": [
+      {"id": "v-047-30", "size": "30ml", "concentration": "EDP", "price": 799, "stock": 8},
+      {"id": "v-047-50", "size": "50ml", "concentration": "EDP", "price": 999, "stock": 5},
+      {"id": "v-047-100", "size": "100ml", "concentration": "EDP", "price": 1499, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 312, "stock": 5, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-048", "slug": "magnolia-dream",
+    "name": {"en": "Magnolia Dream", "ar": "ماغنوليا دريم"},
+    "brand": {"en": "Inspired by Giorgio Armani Si", "ar": "مستوحى من Giorgio Armani Si"},
+    "gender": "her", "category": ["her", "floral", "fruity", "new-arrivals"],
+    "price": 849, "oldPrice": null,
+    "description": {"en": "A modern chypre fragrance with a fresh and timeless beauty. Blackcurrant meets rose in harmony.", "ar": "عطر شيبري عصري بجمال منعش وخالد. الكشمش الأسود يلتقي الورد في انسجام."},
+    "notes": {"top": {"en": "Blackcurrant Nectar, Freesia, Pear", "ar": "رحيق الكشمش الأسود، فريزيا، كمثرى"}, "middle": {"en": "Rose de Mai, Peony", "ar": "ورد ماي، فاوانيا"}, "base": {"en": "Patchouli, Vanilla, White Musk", "ar": "باتشولي، فانيليا، مسك أبيض"}},
+    "variants": [
+      {"id": "v-048-30", "size": "30ml", "concentration": "EDP", "price": 649, "stock": 13},
+      {"id": "v-048-50", "size": "50ml", "concentration": "EDP", "price": 849, "stock": 7},
+      {"id": "v-048-100", "size": "100ml", "concentration": "EDP", "price": 1199, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1609602619404-a8fd0c63c1c7?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1609602619404-a8fd0c63c1c7?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 176, "stock": 7, "isNew": true, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-049", "slug": "king-saffron",
+    "name": {"en": "King Saffron", "ar": "كينج سافرون"},
+    "brand": {"en": "Inspired by Xerjoff Naxos", "ar": "مستوحى من Xerjoff Naxos"},
+    "gender": "him", "category": ["him", "oriental", "luxury", "bestsellers"],
+    "price": 1199, "oldPrice": null,
+    "description": {"en": "A luxurious, warm and spicy blend with honey, saffron and tobacco. Sumptuous and regal.", "ar": "مزيج فاخر، دافئ وحار مع العسل والزعفران والتبغ. فخم وملكي."},
+    "notes": {"top": {"en": "Saffron, Honey", "ar": "زعفران، عسل"}, "middle": {"en": "Lavender, Iris, Jasmine", "ar": "لافندر، سوسن، ياسمين"}, "base": {"en": "Tobacco, Oud, Amber, Sandalwood", "ar": "تبغ، عود، عنبر، خشب الصندل"}},
+    "variants": [
+      {"id": "v-049-30", "size": "30ml", "concentration": "Extrait", "price": 999, "stock": 5},
+      {"id": "v-049-50", "size": "50ml", "concentration": "Extrait", "price": 1199, "stock": 3},
+      {"id": "v-049-100", "size": "100ml", "concentration": "Extrait", "price": 1999, "stock": 1}
+    ],
+    "image": "https://images.unsplash.com/photo-1618374551942-a78e7a2d8c6c?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1618374551942-a78e7a2d8c6c?auto=format&fit=crop&q=80&w=600"],
+    "rating": 5.0, "reviewsCount": 65, "stock": 3, "isNew": false, "isBestseller": true, "scent": "oriental"
+  },
+  {
+    "id": "p-050", "slug": "summer-affair",
+    "name": {"en": "Summer Affair", "ar": "سامر أفير"},
+    "brand": {"en": "Inspired by Burberry Her", "ar": "مستوحى من Burberry Her"},
+    "gender": "her", "category": ["her", "fruity", "floral", "special-offers"],
+    "price": 749, "oldPrice": 999,
+    "description": {"en": "A beautiful, bold, and modern scent that captures the free spirit of a vibrant city summer.", "ar": "رائحة جميلة، جريئة وعصرية تجسد الروح الحرة لصيف المدينة النابض."},
+    "notes": {"top": {"en": "Blackcurrant, Blueberry, Raspberry", "ar": "كشمش أسود، توت أزرق، توت العليق"}, "middle": {"en": "Jasmine, Violet Leaf, Freesia", "ar": "ياسمين، أوراق بنفسج، فريزيا"}, "base": {"en": "Amber, Musk, Dry Wood", "ar": "عنبر، مسك، خشب جاف"}},
+    "variants": [
+      {"id": "v-050-30", "size": "30ml", "concentration": "EDP", "price": 549, "stock": 20},
+      {"id": "v-050-50", "size": "50ml", "concentration": "EDP", "price": 749, "stock": 11},
+      {"id": "v-050-100", "size": "100ml", "concentration": "EDP", "price": 1049, "stock": 5}
+    ],
+    "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.5, "reviewsCount": 209, "stock": 11, "isNew": false, "isBestseller": false, "scent": "fruity"
+  },
+  {
+    "id": "p-051", "slug": "smoke-oud",
+    "name": {"en": "Smoke & Oud", "ar": "سموك وعود"},
+    "brand": {"en": "Inspired by Maison Francis Kurkdjian OUD", "ar": "مستوحى من Maison Francis Kurkdjian OUD"},
+    "gender": "unisex", "category": ["unisex", "oriental", "luxury"],
+    "price": 1099, "oldPrice": null,
+    "description": {"en": "An intensely smoky and supremely luxurious oud fragrance. Reserved for those who dare.", "ar": "عطر عود شديد الدخان وفاخر جداً. محجوز لمن يجرأون."},
+    "notes": {"top": {"en": "Incense, Saffron", "ar": "بخور، زعفران"}, "middle": {"en": "Agarwood, Birch Tar", "ar": "عود، قطران البتولا"}, "base": {"en": "Musk, Amber, Leather", "ar": "مسك، عنبر، جلد"}},
+    "variants": [
+      {"id": "v-051-30", "size": "30ml", "concentration": "EDP", "price": 899, "stock": 6},
+      {"id": "v-051-70", "size": "70ml", "concentration": "EDP", "price": 1099, "stock": 4},
+      {"id": "v-051-200", "size": "200ml", "concentration": "EDP", "price": 2499, "stock": 1}
+    ],
+    "image": "https://images.unsplash.com/photo-1563240175-cd93c1e9cae7?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1563240175-cd93c1e9cae7?auto=format&fit=crop&q=80&w=600"],
+    "rating": 5.0, "reviewsCount": 45, "stock": 4, "isNew": true, "isBestseller": false, "scent": "oriental"
+  },
+  {
+    "id": "p-052", "slug": "tender-touch",
+    "name": {"en": "Tender Touch", "ar": "تيندر تاتش"},
+    "brand": {"en": "Inspired by Chanel Chance Eau Tendre", "ar": "مستوحى من Chanel Chance Eau Tendre"},
+    "gender": "her", "category": ["her", "floral", "fresh", "new-arrivals"],
+    "price": 899, "oldPrice": null,
+    "description": {"en": "Soft and tender, this fragrance feels like a caress. Airy and sensual floral freshness.", "ar": "ناعم ورقيق، هذا العطر يشعرك بالمداعبة. انتعاش زهري هوائي وحسي."},
+    "notes": {"top": {"en": "Grapefruit, Quince, Hyacinth", "ar": "جريب فروت، سفرجل، صنوبر"}, "middle": {"en": "Jasmine, Rose, Iris", "ar": "ياسمين، ورد، سوسن"}, "base": {"en": "White Musk, Ambrette", "ar": "مسك أبيض، أمبريت"}},
+    "variants": [
+      {"id": "v-052-35", "size": "35ml", "concentration": "EDP", "price": 699, "stock": 12},
+      {"id": "v-052-50", "size": "50ml", "concentration": "EDP", "price": 899, "stock": 7},
+      {"id": "v-052-100", "size": "100ml", "concentration": "EDP", "price": 1299, "stock": 3}
+    ],
+    "image": "https://images.unsplash.com/photo-1588774069197-a89b0b82a9e4?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1588774069197-a89b0b82a9e4?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.7, "reviewsCount": 193, "stock": 7, "isNew": true, "isBestseller": false, "scent": "floral"
+  },
+  {
+    "id": "p-053", "slug": "viking",
+    "name": {"en": "Viking", "ar": "فايكنج"},
+    "brand": {"en": "Inspired by Creed Viking", "ar": "مستوحى من Creed Viking"},
+    "gender": "him", "category": ["him", "fresh", "luxury"],
+    "price": 1099, "oldPrice": null,
+    "description": {"en": "A powerhouse fragrance of bold spices and fresh woods. Invigorating and utterly compelling.", "ar": "عطر ذو طاقة هائلة من التوابل الجريئة والأخشاب المنعشة. منشط وآسر تماماً."},
+    "notes": {"top": {"en": "Pink Pepper, Geranium, Clary Sage", "ar": "فلفل وردي، إبرة الراعي، مريمية"}, "middle": {"en": "Lavandin, Sandalwood, Cinnamon", "ar": "لافاندين، خشب الصندل، قرفة"}, "base": {"en": "Vetiver, Patchouli, Amber", "ar": "نجيل الهند، باتشولي، عنبر"}},
+    "variants": [
+      {"id": "v-053-50", "size": "50ml", "concentration": "EDP", "price": 1099, "stock": 4},
+      {"id": "v-053-100", "size": "100ml", "concentration": "EDP", "price": 1699, "stock": 2}
+    ],
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.9, "reviewsCount": 88, "stock": 4, "isNew": false, "isBestseller": false, "scent": "fresh"
+  },
+  {
+    "id": "p-054", "slug": "passion-fruit",
+    "name": {"en": "Passion Fruit", "ar": "باشن فروت"},
+    "brand": {"en": "Inspired by Escada Especially", "ar": "مستوحى من Escada Especially"},
+    "gender": "her", "category": ["her", "fruity"],
+    "price": 699, "oldPrice": null,
+    "description": {"en": "A juicy, tropical, and feminine scent. Fruity sweetness meets feminine floral heart.", "ar": "رائحة عصيرية وتروبيكال وأنثوية. حلاوة فاكهية تلتقي بقلب زهري أنثوي."},
+    "notes": {"top": {"en": "Passion Fruit, Pineapple, Lychee", "ar": "فاكهة الشوفان، أناناس، ليتشي"}, "middle": {"en": "Peony, Jasmine, Freesia", "ar": "فاوانيا، ياسمين، فريزيا"}, "base": {"en": "Musk, Sandalwood, Warm Amber", "ar": "مسك، خشب الصندل، عنبر دافئ"}},
+    "variants": [
+      {"id": "v-054-30", "size": "30ml", "concentration": "EDP", "price": 499, "stock": 22},
+      {"id": "v-054-50", "size": "50ml", "concentration": "EDP", "price": 699, "stock": 13},
+      {"id": "v-054-75", "size": "75ml", "concentration": "EDP", "price": 949, "stock": 7}
+    ],
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.4, "reviewsCount": 147, "stock": 13, "isNew": false, "isBestseller": false, "scent": "fruity"
+  },
+  {
+    "id": "p-055", "slug": "royal-amber",
+    "name": {"en": "Royal Amber", "ar": "رويال أمبر"},
+    "brand": {"en": "Inspired by Dior Fahrenheit", "ar": "مستوحى من Dior Fahrenheit"},
+    "gender": "him", "category": ["him", "oriental", "special-offers"],
+    "price": 849, "oldPrice": 1099,
+    "description": {"en": "An iconic, distinctive, and unique masculine fragrance. Violets and leather with warm woods.", "ar": "عطر رجالي أيقوني، مميز وفريد. بنفسج وجلد مع أخشاب دافئة."},
+    "notes": {"top": {"en": "Lavender, Violet Leaf, Bergamot", "ar": "لافندر، أوراق البنفسج، برغموت"}, "middle": {"en": "Leather, Nutmeg, Cedar", "ar": "جلد، جوزة الطيب، أرز"}, "base": {"en": "Amber, Musk, Sandalwood", "ar": "عنبر، مسك، خشب الصندل"}},
+    "variants": [
+      {"id": "v-055-30", "size": "30ml", "concentration": "EDT", "price": 649, "stock": 16},
+      {"id": "v-055-50", "size": "50ml", "concentration": "EDT", "price": 849, "stock": 8},
+      {"id": "v-055-100", "size": "100ml", "concentration": "EDT", "price": 1149, "stock": 4}
+    ],
+    "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+    "images": ["https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600"],
+    "rating": 4.6, "reviewsCount": 201, "stock": 8, "isNew": false, "isBestseller": false, "scent": "oriental"
+  }
+]
